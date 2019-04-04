@@ -17,7 +17,7 @@
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/JSSTemplateFiles/PolicyTemplate.xml</string>
             <key>ICON</key>
-            <string>%RECIPE_DIR%/JSSTemplateFiles/Firefox.png</string>
+            <string>%RECIPE_DIR%/JSSTemplateFiles/Icons/Firefox.png</string>
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/JSSTemplateFiles/SmartGroupTemplate.xml</string>
             <key>GROUP_NAME</key>
