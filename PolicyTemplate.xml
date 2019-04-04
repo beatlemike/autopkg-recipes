@@ -11,7 +11,7 @@
 	<scope>
 		<all_computers>true</all_computers>
 		<limit_to_users>
-			<users/>
+			<user_groups/>
 		</limit_to_users>
 	</scope>
 	<package_configuration>
