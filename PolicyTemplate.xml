@@ -12,6 +12,7 @@
 		<all_computers>true</all_computers>
 		<limit_to_users>
 			<user_groups/>
+			<users/>
 		</limit_to_users>
 	</scope>
 	<package_configuration>
