@@ -10,7 +10,9 @@
 	</general>
 	<scope>
 		<all_computers>true</all_computers>
-		<all_users>true</all_users>
+		<limit_to_users>
+			<user_groups/>
+		</limit_to_users>
 	</scope>
 	<package_configuration>
 		<!--Package added by JSSImporter-->
@@ -26,14 +28,7 @@
 		<self_service_description>%SELF_SERVICE_DESCRIPTION%</self_service_description>
 	</self_service>
 	<reboot>
-    	<message>This computer will restart in 5 minutes. Please save anything you are working on and log out by choosing Log Out from the bottom of the Apple menu.</message>
-    	<startup_disk>Current Startup Disk</startup_disk>
     	<specify_startup/>
-    	<no_user_logged_in>Do not restart</no_user_logged_in>
-    	<user_logged_in>Do not restart</user_logged_in>
-    	<minutes_until_reboot>5</minutes_until_reboot>
-    	<start_reboot_timer_immediately>false</start_reboot_timer_immediately>
-    	<file_vault_2_reboot>false</file_vault_2_reboot>
 	</reboot>
 	<maintenance>
 		<recon>true</recon>
