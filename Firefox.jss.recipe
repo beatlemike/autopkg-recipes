@@ -9,11 +9,13 @@
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Firefox</string>
+            <string>Firefox V2</string>
             <key>CATEGORY</key>
             <string>Browsers</string>
             <key>POLICY_CATEGORY</key>
             <string>Browsers</string>
+            <key>POLICY_TRIGER</key>
+            <string>firefox</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
             <key>ICON</key>
@@ -40,6 +42,8 @@
                     <string>%CATEGORY%</string>
                     <key>policy_category</key>
                     <string>%POLICY_CATEGORY%</string>
+                    <key>policy_trigger</key>
+                    <string>%POLICY_TRIGGER%</string>
                     <key>policy_template</key>
                     <string>%POLICY_TEMPLATE%</string>
                     <key>self_service_icon</key>
