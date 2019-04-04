@@ -42,7 +42,7 @@
                     <string>%CATEGORY%</string>
                     <key>policy_category</key>
                     <string>%POLICY_CATEGORY%</string>
-                    <key>policy_trigger</key>
+                    <key>trigger_other</key>
                     <string>%POLICY_TRIGGER%</string>
                     <key>policy_template</key>
                     <string>%POLICY_TEMPLATE%</string>

@@ -10,6 +10,7 @@
 	</general>
 	<scope>
 		<all_computers>true</all_computers>
+		<all_users>true</all_users>
 	</scope>
 	<package_configuration>
 		<!--Package added by JSSImporter-->
