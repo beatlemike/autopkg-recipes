@@ -9,12 +9,12 @@
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Firefox V2</string>
+            <string>Firefox</string>
             <key>CATEGORY</key>
             <string>Browsers</string>
             <key>POLICY_CATEGORY</key>
             <string>Browsers</string>
-            <key>POLICY_TRIGER</key>
+            <key>POLICY_TRIGGER</key>
             <string>firefox</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
