@@ -14,7 +14,7 @@
             <key>CATEGORY</key>
             <string>Email</string>
             <key>POLICY_CATEGORY</key>
-            <string>Browsers</string>
+            <string>Email</string>
             <key>POLICY_TRIGGER</key>
             <string>thunderbird</string>
             <key>POLICY_TEMPLATE</key>
