@@ -17,7 +17,7 @@
 			<key>RELEASE</key>
 			<string>latest-esr</string>
 			<key>NAME</key>
-            <string>TEST-Mozilla FirefoxESR</string>
+            <string>Mozilla FirefoxESR</string>
 			<key>RELEASE</key>
 			<string>latest-esr</string>
             <key>CATEGORY</key>
