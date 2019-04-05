@@ -30,10 +30,6 @@
             <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/Firefox.png</string>
-            <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
-            <key>GROUP_NAME</key>
-            <string>Update - %NAME%</string>
             <key>DESCRIPTION</key>
             <string>Mozilla Firefox ESR is intended for groups who deploy and maintain the desktop environment in large organizations such as schools, governments and businesses.</string>
         </dict>
