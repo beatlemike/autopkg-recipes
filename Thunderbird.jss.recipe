@@ -8,7 +8,8 @@
         <string>com.github.beatlemike.jss.Thunderbird</string>
         <key>Input</key>
         <dict>
-            <key>NAME</key>
+            <key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+			<true/><key>NAME</key>
             <string>Mozilla Thunderbird</string>
             <key>CATEGORY</key>
             <string>Browsers</string>
