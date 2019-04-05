@@ -8,8 +8,18 @@
         <string>com.github.beatlemike.jss.FirefoxESR</string>
         <key>Input</key>
         <dict>
-            <key>NAME</key>
+            <key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+			<false/>
+			<key>DOWNLOAD_URL</key>
+			<string>https://download.mozilla.org/?product=firefox-esr-latest&amp;os=osx&amp;lang=en-US</string>
+			<key>LOCALE</key>
+			<string>en-US</string>
+			<key>RELEASE</key>
+			<string>latest-esr</string>
+			<key>NAME</key>
             <string>TEST-Mozilla FirefoxESR</string>
+			<key>RELEASE</key>
+			<string>latest-esr</string>
             <key>CATEGORY</key>
             <string>Browsers</string>
             <key>POLICY_CATEGORY</key>
