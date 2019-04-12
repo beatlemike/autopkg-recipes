@@ -10,7 +10,7 @@
         <dict>
             <key>NAME</key>
             <string>Google Drive File Stream</string>
-			<key>CATEGORY</key>
+            <key>CATEGORY</key>
             <string>Cloud Services</string>
             <key>POLICY_CATEGORY</key>
             <string>Cloud Services</string>
@@ -21,7 +21,7 @@
             <key>ICON</key>
             <string>%RECIPE_DIR%/GoogleDriveFileStream.png</string>
             <key>DESCRIPTION</key>
-            <string>Google Drive File Stream streams all files and folders from the cloud.</string>
+            <string>1Password remembers all your passwords for you, and keeps them safe and secure behind the one password that only you know. (A subscription or license is required.)</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
