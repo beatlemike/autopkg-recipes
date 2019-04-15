@@ -5,7 +5,7 @@
         <key>Description</key>
         <string>Downloads the current release version of GlobalProtects and uploads it to the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.beatlemike.download.GlobalProtect</string>
+        <string>com.github.beatlemike.jss.GlobalProtect</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
