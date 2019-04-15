@@ -3,30 +3,30 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads the current release version of Atom and uploads it to the JSS.</string>
+        <string>Downloads the current release version of GlobalProtects and uploads it to the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.atom</string>
+        <string>com.github.beatlemike.jss.globalprotect</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Atom</string>
+            <string>GlobalProtect</string>
             <key>CATEGORY</key>
-            <string>Developer Tools</string>
+            <string>Security</string>
             <key>POLICY_CATEGORY</key>
-            <string>Developer Tools</string>
+            <string>Security</string>
             <key>POLICY_TRIGGER</key>
-            <string>atom</string>
+            <string>globalprotect</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
             <key>ICON</key>
-            <string>%RECIPE_DIR%/Atom.png</string>
+            <string>%RECIPE_DIR%/GlobalProtect.png</string>
             <key>DESCRIPTION</key>
-            <string>A hackable text editor for the 21st Century.</string>
+            <string>GlobalProtect for macOS connects to a GlobalProtect gateway on a Palo Alto Networks next-generation firewall to allow Mac users to benefit from enterprise security protection.</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.2.0</string>
         <key>ParentRecipe</key>
-        <string>io.github.hjuutilainen.pkg.Atom</string>
+        <string>com.github.beatlemike.download.globalprotect</string>
         <key>Process</key>
         <array>
             <dict>
