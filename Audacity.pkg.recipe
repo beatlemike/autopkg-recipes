@@ -2,21 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>Description</key>
-    <string>Downloads the Audacity disk image and builds a package.</string>
-    <key>Identifier</key>
-    <string>com.github.beatlemike.jss.Audacity</string>
-    <key>Input</key>
-    <dict>
-        <key>NAME</key>
-        <string>Audacity</string>
-    </dict>
-    <key>MinimumVersion</key>
-    <string>0.2.0</string>
+	<key>Description</key>
+	<string>Create a package for the Audacity.</string>
+	<key>Identifier</key>
+	<string>com.github.beatlemike.pkg.audacity</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Audacity</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
     <key>ParentRecipe</key>
     <string>com.github.rustymyers.download.Audacity</string>
-    <key>Process</key>
-    <array>
+	<key>Process</key>
+	<array>
         <dict>
             <key>Processor</key>
             <string>AppDmgVersioner</string>
@@ -63,7 +63,7 @@
                     <key>pkgdir</key>
                     <string>%RECIPE_CACHE_DIR%</string>
                     <key>id</key>
-                    <string>org.audacityteam.audacity.pkg</string>
+                    <string>org.audacityteam.audacity</string>
                     <key>options</key>
                     <string>purge_ds_store</string>
                     <key>chown</key>
