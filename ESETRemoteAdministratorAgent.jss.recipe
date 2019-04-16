@@ -26,7 +26,7 @@
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.jbaker10.pkg.ESETRemoteAdministratorAgent</string>
+        <string>com.github.beatlemike.pkg.ESETRemoteAdministratorAgent</string>
         <key>Process</key>
         <array>
          	<dict>
