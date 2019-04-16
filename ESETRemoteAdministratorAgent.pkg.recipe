@@ -41,7 +41,7 @@
             <key>Arguments</key>
             <dict>
                <key>pattern</key>
-               <string>%RECIPE_CACHE_DIR%/downloads/unpack/%NAME%.pkg</string>
+               <string>%RECIPE_CACHE_DIR%/downloads/unpack/com.eset.remoteadministrator.agent.pkg</string>
             </dict>
             <key>Processor</key>
             <string>FileFinder</string>
