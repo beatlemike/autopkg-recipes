@@ -11,7 +11,7 @@
             <key>NAME</key>
             <string>GlobalProtect</string>
         	<key>HOSTNAME</key>
-        	<string>protect.csulb.edu</string>
+        	<string>secure.csusb.edu</string>
         	<key>PLATFORM</key>
         	<string>mac</string>
         	<key>DOWNLOAD_URL</key>
