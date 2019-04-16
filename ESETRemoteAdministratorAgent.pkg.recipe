@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads latest ESET Remote Administrator Agent disk image and builds a package.</string>
 	<key>Identifier</key>
-	<string>com.github.beatlemike.pkg.ESETRemoteAdministratorAgent</string>
+	<string>om.github.beatlemike.pkg.ESETRemoteAdministratorAgent</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -14,7 +14,7 @@
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.jbaker10.pkg.ESETRemoteAdministratorAgent</string>
+	<string>com.github.jbaker10.download.ESETRemoteAdministratorAgent</string>
 	<key>Process</key>
     <array>
 		<dict>
