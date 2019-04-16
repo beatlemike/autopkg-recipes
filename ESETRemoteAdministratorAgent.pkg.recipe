@@ -12,7 +12,7 @@
         <string>ESET Remote Administrator Agent</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.jbaker10.download.ESETRemoteAdministratorAgent</string>
+    <string>com.github.jbaker10.pkg.ESETRemoteAdministratorAgent</string>
     <key>Process</key>
       <array>
          <dict>
