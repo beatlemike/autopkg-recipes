@@ -17,7 +17,7 @@
 	<string>com.github.jbaker10.download.ESETRemoteAdministratorAgent</string>
 	<key>Process</key>
     <array>
-	<dict>
+		<dict>
             <key>Processor</key>
             <string>Versioner</string>
             <key>Arguments</key>
