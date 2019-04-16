@@ -14,8 +14,8 @@
     <key>ParentRecipe</key>
     <string>com.github.jbaker10.download.ESETRemoteAdministratorAgent</string>
     <key>Process</key>
-      <array>
-         <dict>
+    <array>
+        <dict>
             <key>Processor</key>
             <string>Copier</string>
             <key>Arguments</key>
@@ -23,9 +23,9 @@
                 <key>source_path</key>
                 <string>%RECIPE_CACHE_DIR%/downloads/%NAME%.dmg/*.pkg</string>
                 <key>destination_path</key>
-                <string>%RECIPE_CACHE_DIR%/downloads/unpack/%NAME%.pkg</string>
+                <string>%RECIPE_CACHE_DIR%/%NAME%.pkg</string>
             </dict>
-		</dict>
-      </array>
-   </dict>
+        </dict>
+    </array>
+</dict>
 </plist>
