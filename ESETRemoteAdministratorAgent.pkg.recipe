@@ -21,7 +21,7 @@
             <key>Arguments</key>
             <dict>
                 <key>input_plist_path</key>
-                <string>%RECIPE_CACHE_DIR%/downloads/%NAME%.dmg/com.eset.remoteadministrator.agent.pkg/Contents/Info.plist</string>
+                <string>%RECIPE_CACHE_DIR%/downloads/%NAME%.dmg/Agent-MacOSX-x86_64.pkg/Contents/Info.plist</string>
             </dict>
         </dict>        
         <dict>
