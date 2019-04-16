@@ -14,7 +14,7 @@
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.jabaker10.download.ESETRemoteAdministratorAgent</string>
+	<string>com.github.jbaker10.download.ESETRemoteAdministratorAgent</string>
 	<key>Process</key>
 	<array>
 		<dict>
