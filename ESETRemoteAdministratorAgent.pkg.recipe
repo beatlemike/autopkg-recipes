@@ -96,7 +96,7 @@ autopkg repo-add jessepeterson-recipes</string>
 				<key>filename</key>
 				<string>%RECIPE_CACHE_DIR%/downloads/payload/ESET Remote Administrator Agent.app</string>
 				<key>mode</key>
-				<string>-R u+w</string>
+				<string>u+w</string>
 			</dict>
 			<key>Comment</key>
 			<string>555 POSIX permissions here need to be fixed, or else we can't delete the application</string>
