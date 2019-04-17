@@ -79,6 +79,8 @@
                 <dict>
                     <key>payload</key>
                     <string>0775</string>
+                    <key>%NAME%.app</key>
+                    <string>0775</string>
                 </dict>
             </dict>
         </dict>
