@@ -53,6 +53,8 @@
                <string>%RECIPE_CACHE_DIR%/downloads/payload</string>
                <key>pkg_payload_path</key>
                <string>%found_filename%/Payload</string>
+               <key>overwrite</key>
+               <string>true</string>
             </dict>
             <key>Processor</key>
             <string>PkgPayloadUnpacker</string>
