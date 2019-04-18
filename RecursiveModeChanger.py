@@ -24,9 +24,9 @@ class RecursiveModeChanger(Processor):
 
 	def main(self):
 		filename = self.env.get('filename')
-		mode = self.env.get('mode')
+		mode = self.env.get(-R 'mode')
 
-		retcode = subprocess.call(['/bin/chmod -R', mode, filename])
+		retcode = subprocess.call(['/bin/chmod', mode, filename])
 		if retcode:
 			raise ProcessorError('Error setting mode (chmod %s) for %s' % (mode, filename))
 
