@@ -102,8 +102,6 @@ autopkg repo-add jessepeterson-recipes</string>
 			</dict>
 			<key>Comment</key>
 			<string>555 POSIX permissions here need to be fixed, or else we can't delete the application</string>
-			<key>Processor</key>
-			<string>com.github.beatlemike/RecursiveModeChanger</string>
          </dict>
          <dict>
             <key>Processor</key>
@@ -116,7 +114,9 @@ autopkg repo-add jessepeterson-recipes</string>
                </array>
             </dict>
          </dict>
-         		<dict>
+         <dict>
+			<key>Processor</key>
+			<string>PathDeleter</string>
 			<key>Arguments</key>
 			<dict>
 				<key>path_list</key>
@@ -126,8 +126,6 @@ autopkg repo-add jessepeterson-recipes</string>
 			</dict>
 			<key>Comments</key>
 			<string>Clean up the permissions-changed ESET Remote Administrator Agent.app--want to stay idempotent.</string>
-			<key>Processor</key>
-			<string>PathDeleter</string>
          </dict>
       </array>
    </dict>
