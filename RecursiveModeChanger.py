@@ -6,7 +6,7 @@ import os
 
 __all__ = ["RecursiveModeChanger"]
 
-class ModeChanger(Processor):
+class RecursiveModeChanger(Processor):
 	'''Changes file modes recursively'''
 
 	input_variables = {
@@ -16,7 +16,7 @@ class ModeChanger(Processor):
 		},
 		'mode': {
 			'required': True,
-			'description': 'chmod(1) mode string to apply to file recursivey. E.g. "o-w"'
+			'description': 'chmod(1) mode string to apply to file recursively. E.g. "o-w"'
 		},
 	}
 	output_variables = {
