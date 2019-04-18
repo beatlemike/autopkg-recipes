@@ -29,6 +29,8 @@
 					<string>%RECIPE_CACHE_DIR%/payload</string>
 				</array>
 			</dict>
+			<key>Processor</key>
+			<string>PathDeleter</string>
 		</dict>
 	</array>
 </dict>
