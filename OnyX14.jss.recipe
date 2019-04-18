@@ -24,9 +24,9 @@
             <string>OnyX is a multifunction utility that you can use to verify the structure of the system files, to run miscellaneous maintenance and cleaning tasks, to configure parameters in the Finder, Dock, Safari, and some of Apple's applications, to delete caches, to remove certain problematic folders and files, to rebuild various databases and indexes, and more.</string>
         </dict>
         <key>MinimumVersion</key>
-        <string>0.4.0</string>
+        <string>1.0.1</string>
         <key>ParentRecipe</key>
-        <string>com.github.beatlemike.pkg.Onyx14</string>
+        <string>com.github.beatlemike.pkg.OnyX14</string>
         <key>Process</key>
         <array>
             <dict>
