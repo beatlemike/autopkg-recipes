@@ -34,6 +34,8 @@
                 <dict>
                     <key>prod_name</key>
                     <string>%NAME%</string>
+                    <key>pkg_path</key>
+                    <string>/</string>
                     <key>category</key>
                     <string>%CATEGORY%</string>
                     <key>policy_category</key>
