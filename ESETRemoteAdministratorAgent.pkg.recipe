@@ -8,7 +8,7 @@
 	<string>Downloads the latest version of HP Easy Admin.
 
 NOTES:
-- This recipe depends on jessepeterson's ModeChanger.  Add jessepeterson's repo via:
+- This recipe depends on a variant of jessepeterson's ModeChanger.  Add jessepeterson's repo via:
 
 autopkg repo-add jessepeterson-recipes</string>
 	<key>Description</key>
@@ -91,7 +91,8 @@ autopkg repo-add jessepeterson-recipes</string>
             </dict>
          </dict>
          <dict>
-			<key>Arguments</key>
+			<key>Processor</key>
+			<string>RecursiveModeChanger</string>
 			<dict>
 				<key>filename</key>
 				<string>%RECIPE_CACHE_DIR%/downloads/payload/ESET Remote Administrator Agent.app/Contents/_CodeSignature</string>
@@ -101,7 +102,7 @@ autopkg repo-add jessepeterson-recipes</string>
 			<key>Comment</key>
 			<string>555 POSIX permissions here need to be fixed, or else we can't delete the application</string>
 			<key>Processor</key>
-			<string>com.github.beatlemike/ModeChanger</string>
+			<string>com.github.beatlemike/RecursiveModeChanger</string>
          </dict>
          <dict>
             <key>Processor</key>
