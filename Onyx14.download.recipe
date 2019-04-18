@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest Onyx client for macOS 10.14 Mojave.</string>
     <key>Identifier</key>
-    <string>com.github.beatlemike.Onyx14</string>
+    <string>com.github.beatlemike.download.Onyx14</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
