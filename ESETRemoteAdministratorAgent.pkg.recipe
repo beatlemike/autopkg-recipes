@@ -93,6 +93,7 @@ autopkg repo-add jessepeterson-recipes</string>
          <dict>
 			<key>Processor</key>
 			<string>RecursiveModeChanger</string>
+			<key>Arguments</key>
 			<dict>
 				<key>filename</key>
 				<string>%RECIPE_CACHE_DIR%/downloads/payload/ESET Remote Administrator Agent.app/Contents/_CodeSignature</string>
