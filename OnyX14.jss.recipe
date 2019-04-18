@@ -30,6 +30,8 @@
         <key>Process</key>
         <array>
             <dict>
+                <key>Processor</key>
+                <string>JSSImporter</string>
                 <key>Arguments</key>
                 <dict>
                     <key>prod_name</key>
@@ -47,8 +49,6 @@
                     <key>self_service_description</key>
                     <string>%DESCRIPTION%</string>
                 </dict>
-                <key>Processor</key>
-                <string>JSSImporter</string>
             </dict>
         </array>
     </dict>
