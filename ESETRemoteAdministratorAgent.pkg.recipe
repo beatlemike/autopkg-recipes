@@ -114,19 +114,6 @@ autopkg repo-add jessepeterson-recipes</string>
                </array>
             </dict>
          </dict>
-         <dict>
-			<key>Processor</key>
-			<string>PathDeleter</string>
-			<key>Arguments</key>
-			<dict>
-				<key>path_list</key>
-				<array>
-					<string>%RECIPE_CACHE_DIR%/downloads/payload/ESET Remote Administrator Agent.app</string>
-				</array>
-			</dict>
-			<key>Comments</key>
-			<string>Clean up the permissions-changed ESET Remote Administrator Agent.app--want to stay idempotent.</string>
-         </dict>
       </array>
    </dict>
 </plist>
