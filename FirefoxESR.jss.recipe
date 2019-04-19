@@ -36,7 +36,7 @@
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.enterpriseosx.pkg.FirefoxESR</string>
+        <string>com.github.rtrouton.pkg.Firefox</string>
         <key>Process</key>
         <array>
             <dict>
