@@ -3,7 +3,7 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Uses parent download recipe to download the latest Astropad Standard installer package and import it into the JSS.</string>
+        <string>Downloads the current release version of Astropad Standard and uploads it to the JSS.</string>
         <key>Identifier</key>
         <string>com.github.beatlemike.jss.AstropadStandard</string>
         <key>Input</key>
@@ -24,7 +24,7 @@
             <string>Use the Mac creative tools you know and love with the touch experience of your iPad and the precision of the Apple Pencil.</string>
         </dict>
         <key>MinimumVersion</key>
-        <string>1.0.0</string>
+        <string>0.2.0</string>
         <key>ParentRecipe</key>
         <string>com.github.jazzace.pkg.AstropadStandard</string>
         <key>Process</key>
@@ -46,8 +46,6 @@
                     <string>%ICON%</string>
                     <key>self_service_description</key>
                     <string>%DESCRIPTION%</string>
-                    <key>pkg_path</key>
-                    <string>%destination_path%</string>
                 </dict>
                 <key>Processor</key>
                 <string>JSSImporter</string>
