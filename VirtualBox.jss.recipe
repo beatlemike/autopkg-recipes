@@ -9,7 +9,7 @@
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Oracle VM VirtualBox</string>
+            <string>VirtualBox</string>
             <key>CATEGORY</key>
             <string>Virtualization</string>
             <key>POLICY_CATEGORY</key>
