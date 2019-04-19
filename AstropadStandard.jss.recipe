@@ -21,7 +21,7 @@
             <key>ICON</key>
             <string>%RECIPE_DIR%/AstropadStandard.png</string>
             <key>DESCRIPTION</key>
-            <string>Use the Mac creative tools you know & love with the touch experience of your iPad and the precision of the Apple Pencil.</string>
+            <string>Use the Mac creative tools you know and love with the touch experience of your iPad and the precision of the Apple Pencil.</string>
         </dict>
         <key>MinimumVersion</key>
         <string>1.0.0</string>

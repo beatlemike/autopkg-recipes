@@ -21,7 +21,7 @@
             <key>ICON</key>
             <string>%RECIPE_DIR%/MicrosoftSkype.png</string>
             <key>DESCRIPTION</key>
-            <string>Skype: voice & video over wireless, rich presence, instant messaging, and calling features from a single, easy-to-use interface.</string>
+            <string>Skype: voice and video over wireless, rich presence, instant messaging, and calling features from a single, easy-to-use interface.</string>
         </dict>
         <key>MinimumVersion</key>
         <string>1.0.0</string>
