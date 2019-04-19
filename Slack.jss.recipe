@@ -11,9 +11,9 @@
             <key>NAME</key>
             <string>Slack</string>
             <key>CATEGORY</key>
-            <string>Developer Tools</string>
+            <string>Communications</string>
             <key>POLICY_CATEGORY</key>
-            <string>Developer Tools</string>
+            <string>Communication</string>
             <key>POLICY_TRIGGER</key>
             <string>slack</string>
             <key>POLICY_TEMPLATE</key>
