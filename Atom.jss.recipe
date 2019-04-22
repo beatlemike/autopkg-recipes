@@ -21,7 +21,7 @@
             <key>ICON</key>
             <string>%RECIPE_DIR%/Atom.png</string>
             <key>DESCRIPTION</key>
-            <string>A hackable text editor for the 21st Century.</string>
+            <string>Atom is a hackable text editor for the 21st Century.</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.2.0</string>
