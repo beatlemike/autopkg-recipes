@@ -3,14 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Comment</key>
-	<string>Originally created with Recipe Robot v1.0.5 (https://github.com/homebysix/recipe-robot)</string>
-	<key>Description</key>
-	<string>Downloads the latest version of HP Easy Admin.
-
-NOTES:
-- This recipe depends on a variant of jessepeterson's ModeChanger.  Add jessepeterson's repo via:
-
-autopkg repo-add jessepeterson-recipes</string>
+	<string>NOTES: This recipe depends on a variant of jessepeterson's ModeChanger.  Add jessepeterson's repo via: autopkg repo-add jessepeterson-recipes</string>
 	<key>Description</key>
     <string>Downloads the latest version of ESET Remote Administrator Agent for macOS, mounts the DMG, and extracts the Installer.pkg.</string>
     <key>Identifier</key>
