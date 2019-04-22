@@ -98,17 +98,6 @@
 			<key>Comment</key>
 			<string>555 POSIX permissions here need to be fixed, or else we can't delete the application</string>
          </dict>
-         <dict>
-            <key>Processor</key>
-            <string>PathDeleter</string>
-            <key>Arguments</key>
-            <dict>
-               <key>path_list</key>
-               <array>
-                  <string>%RECIPE_CACHE_DIR%/%NAME%.pkg</string>
-               </array>
-            </dict>
-         </dict>
       </array>
    </dict>
 </plist>
