@@ -3,30 +3,30 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Uses parent pkg recipe to download latest Google Drive File Stream and import it into the JSS.</string>
+        <string>Uses parent pkg recipe to download latest Dropbox and import it into the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.googledrivefilestream</string>
+        <string>com.github.beatlemike.jss.Dropbox</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Google Drive File Stream</string>
+            <string>Dropbox</string>
             <key>CATEGORY</key>
             <string>Cloud Services</string>
             <key>POLICY_CATEGORY</key>
             <string>Cloud Services</string>
             <key>POLICY_TRIGGER</key>
-            <string>filestream</string>
+            <string>dropbox</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
             <key>ICON</key>
-            <string>%RECIPE_DIR%/GoogleDriveFileStream.png</string>
+            <string>%RECIPE_DIR%/Dropbox.png</string>
             <key>DESCRIPTION</key>
-            <string>A new way to access all of your Google Drive files on demand, directly from your Mac or PC, without using up all of your disk space.</string>
+            <string>Dropbox is a modern workspace designed to reduce busywork-so you can focus on the things that matter. Sign in and put your creative energy to work.</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.crystalllized.pkg.googledrivefs</string>
+        <string>com.github.autopkg.download.dropbox</string>
         <key>Process</key>
         <array>
             <dict>
