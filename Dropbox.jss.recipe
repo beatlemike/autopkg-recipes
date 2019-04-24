@@ -22,6 +22,8 @@
             <string>%RECIPE_DIR%/Dropbox.png</string>
             <key>DESCRIPTION</key>
             <string>Dropbox is a modern workspace designed to reduce busywork-so you can focus on the things that matter. Sign in and put your creative energy to work.</string>
+            <key>pkg_path</key>
+            <string></string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
