@@ -17,29 +17,21 @@
     	<string>com.github.beatlemike.download.PulseSecure</string>
         <key>Process</key>
         <array>
-            <dict>
-            	<key>Processor</key>
-            	<string>FlatPkgUnpacker</string>
-            	<key>Arguments</key>
-            	<dict>
-                	<key>flat_pkg_path</key>
-                	<string>%pathname%/*.pkg</string>
-                	<key>destination_path</key>
-                	<string>%RECIPE_CACHE_DIR%/unpack</string>
-                	<key>purge_destination</key>
-                	<true/>
-            	</dict>
-        	</dict>
-            <dict>
-            	<key>Processor</key>
-            	<string>Versioner</string>
-            	<key>Arguments</key>
-            	<dict>
-                	<key>input_plist_path</key>
-                	<string>%RECIPE_CACHE_DIR%/unpack/Distribution</string>
-            	</dict>
-        	</dict>
         	<dict>
+				<key>Processor</key>
+				<string>PkgRootCreator</string>
+				<key>Arguments</key>
+				<dict>
+					<key>pkgroot</key>
+					<string>%RECIPE_CACHE_DIR%/%NAME%-pkg</string>
+					<key>pkgdirs</key>
+					<dict>
+						<key>Applications</key>
+						<string>0775</string>
+					</dict>
+				</dict>
+			</dict>
+            <dict>
             	<key>Processor</key>
             	<string>PkgCopier</string>
             	<key>Arguments</key>
