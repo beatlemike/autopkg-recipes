@@ -37,9 +37,20 @@
             	<key>Arguments</key>
             	<dict>
                 	<key>source_path</key>
-                	<string>%pathname%/PulseSecure.pkg</string>
+                	<string>%pathname%/*.pkg</string>
                 	<key>destination_path</key>
-                	<string>%pkgroot%/Package/Pulse Secure-%version%.pkg</string>
+                	<string>%pkgroot%/Package/%NAME%.pkg</string>
+            	</dict>
+        	</dict>
+    		<dict>
+            	<key>Processor</key>
+            	<string>PkgCopier</string>
+            	<key>Arguments</key>
+            	<dict>
+                	<key>source_pkg</key>
+                	<string>%pathname%/*.pkg</string>
+                	<key>pkg_path</key>
+                	<string>%RECIPE_CACHE_DIR%/Pulse Secure-%version%.pkg</string>
             	</dict>
         	</dict>
         </array>
