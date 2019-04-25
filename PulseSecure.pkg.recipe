@@ -37,10 +37,6 @@
             	<dict>
                 	<key>pkg_payload_path</key>
                 	<string>%RECIPE_CACHE_DIR%/unpack/PulseSecure.pkg/Payload</string>
-                	<key>destination_path</key>
-                	<string>%RECIPE_CACHE_DIR%/unpack/PulseSecure.pkg.unpacked/</string>
-                	<key>purge_destination</key>
-                	<true/>
             	</dict>
         	</dict>
             <dict>
