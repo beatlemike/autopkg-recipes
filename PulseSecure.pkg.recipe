@@ -42,6 +42,17 @@
                 	<string>%pkgroot%/Package/%NAME%.pkg</string>
             	</dict>
         	</dict>
+        	<dict>
+                <key>Processor</key>
+                <string>FlatPkgUnpacker</string>
+                <key>Arguments</key>
+                <dict>
+                    <key>flat_pkg_path</key>
+                    <string>%pathname%</string>
+                    <key>destination_path</key>
+                    <string>%RECIPE_CACHE_DIR%/expand</string>
+                </dict>
+            </dict>
         </array>
     </dict>
 </plist>
