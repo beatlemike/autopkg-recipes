@@ -32,15 +32,6 @@
         	</dict>
             <dict>
             	<key>Processor</key>
-            	<string>PkgPayloadUnpacker</string>
-            	<key>Arguments</key>
-            	<dict>
-                	<key>pkg_payload_path</key>
-                	<string>%RECIPE_CACHE_DIR%/unpack/PulseSecure.pkg/Payload</string>
-            	</dict>
-        	</dict>
-            <dict>
-            	<key>Processor</key>
             	<string>Versioner</string>
             	<key>Arguments</key>
             	<dict>
