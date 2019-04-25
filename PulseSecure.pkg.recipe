@@ -36,7 +36,7 @@
             	<key>Arguments</key>
             	<dict>
                 	<key>input_plist_path</key>
-                	<string>%RECIPE_CACHE_DIR%/unpack/PulseSecure.pkg.unpacked/Pulse Secure.app/Contents/Info.plist</string>
+                	<string>%RECIPE_CACHE_DIR%/unpack/PulseSecure.pkg/unpack/Distribution</string>
             	</dict>
         	</dict>
         	<dict>
