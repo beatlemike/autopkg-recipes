@@ -22,6 +22,8 @@
             <string>%RECIPE_DIR%/Solstice.png</string>
             <key>DESCRIPTION</key>
             <string>This policy installs the Solstice Client so that you can mirror your screen to Solstice PODS. </string>
+            <key>pkg_path</key>
+            <string></string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.2.0</string>
