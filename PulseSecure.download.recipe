@@ -30,11 +30,9 @@
                     <string>%DOWNLOAD_URL%</string>
                 	<key>filename</key>
                 	<string>%NAME%.dmg</string>
+                	<key>input_path</key>
+                	<string>%pathname%/*.pkg</string>
                 </dict>
-            </dict>
-            <dict>
-				<key>input_path</key>
-				<string>%pathname%/*.pkg</string>
             </dict>
             <dict>
                 <key>Processor</key>
