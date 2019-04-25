@@ -17,21 +17,18 @@
     	<string>com.github.beatlemike.download.PulseSecure</string>
         <key>Process</key>
         <array>
-        	<dict>
-				<key>Processor</key>
-				<string>PkgRootCreator</string>
-				<key>Arguments</key>
-				<dict>
-					<key>pkgroot</key>
-					<string>%RECIPE_CACHE_DIR%/%NAME%-pkg</string>
-					<key>pkgdirs</key>
-					<dict>
-						<key>Applications</key>
-						<string>0775</string>
-					</dict>
-				</dict>
-			</dict>
             <dict>
+            	<key>Processor</key>
+            	<string>Copier</string>
+            	<key>Arguments</key>
+            	<dict>
+                	<key>source_path</key>
+                	<string>%pathname%/Firefox.app</string>
+                	<key>destination_path</key>
+                	<string>%pkgroot%/pkg/PulseSecure.pkg</string>
+            	</dict>
+        	</dict>
+    		<dict>
             	<key>Processor</key>
             	<string>PkgCopier</string>
             	<key>Arguments</key>
