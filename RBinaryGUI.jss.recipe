@@ -3,30 +3,30 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads the current release version of the Jamf Pro utilities and uploads them to the JSS.</string>
+        <string>Downloads the current release version of Atom and uploads it to the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.JamfPro</string>
+        <string>com.github.beatlemike.jss.atom</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Jamf Pro</string>
+            <string>Atom</string>
             <key>CATEGORY</key>
-            <string>Administration</string>
+            <string>Developer Tools</string>
             <key>POLICY_CATEGORY</key>
-            <string>Administration</string>
+            <string>Developer Tools</string>
             <key>POLICY_TRIGGER</key>
-            <string>jamfpro</string>
+            <string>atom</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
             <key>ICON</key>
-            <string>%RECIPE_DIR%/JamfPro.png</string>
+            <string>%RECIPE_DIR%/Atom.png</string>
             <key>DESCRIPTION</key>
-            <string>Administrative applications for Jamf Pro to communicate with the Jamf Pro server.</string>
+            <string>Atom is a hackable text editor for the 21st Century.</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.2.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.beatlemike.pkg.JamfPro</string>
+        <string>io.github.hjuutilainen.pkg.Atom</string>
         <key>Process</key>
         <array>
             <dict>
