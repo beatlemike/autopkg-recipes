@@ -26,7 +26,7 @@
         <key>MinimumVersion</key>
         <string>0.2.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.homebysix.download.Grammarly</string>
+        <string>com.github.homebysix.pkg.Grammarly</string>
         <key>Process</key>
         <array>
             <dict>
@@ -34,8 +34,6 @@
                 <dict>
                     <key>prod_name</key>
                     <string>%NAME%</string>
-                    <key>pkg_path</key>
-                	<string>%pkg_path%</string>
                     <key>category</key>
                     <string>%CATEGORY%</string>
                     <key>policy_category</key>
