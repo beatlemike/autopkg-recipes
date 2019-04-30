@@ -6,10 +6,6 @@
         <string>Downloads the current release version of TechSmith Camtasia and uploads it to the JSS.</string>
         <key>Identifier</key>
         <string>com.github.beatlemike.jss.TechSmithCamtasia</string>
-		<key>Input</key>
-		<dict>
-		<key>CAMTASIA_KEY</key>
-		<string>fffe48005a004300380042002d00320043004d00530033002d00530052004600350044002d004d0041005000430033002d0034004400440041003200</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
