@@ -3,30 +3,30 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Uses parent download recipe to download the latest Microsoft Skype for Business installer package and import it into the JSS.</string>
+        <string>Uses parent pkg recipe to download latest Adobe Flash Player and import it into the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.MicrosoftSkypeforBusiness</string>
+        <string>com.github.beatlemike.jss.AdobeFlashPlayer</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Microsoft Skype for Business</string>
+            <string>Adobe Flash Player</string>
             <key>CATEGORY</key>
-            <string>Microsoft</string>
+            <string>Adobe</string>
             <key>POLICY_CATEGORY</key>
-            <string>Microsoft</string>
+            <string>Additional Installs</string>
             <key>POLICY_TRIGGER</key>
-            <string>sfb</string>
+            <string>flash</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/PolicyTemplateDisabled.xml</string>
+            <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
             <key>ICON</key>
-            <string>%RECIPE_DIR%/MicrosoftSkypeforBusiness.png</string>
+            <string>%RECIPE_DIR%/AdobeFlashPlayer.png</string>
             <key>DESCRIPTION</key>
-            <string>Skype for Business is an instant messaging client used with Skype for Business Server or with Skype for Business Online.</string>
+            <string>Download free Adobe Flash Player software for your Mac to enjoy stunning audio/video playback, and exciting gameplay.</string>
         </dict>
         <key>MinimumVersion</key>
-        <string>1.0.0</string>
+        <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.novaksam.pkg.SkypeForBusiness</string>
+        <string>com.github.autopkg.pkg.FlashPlayerExtractPackage</string>
         <key>Process</key>
         <array>
             <dict>
