@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads latest Slack.</string>
 	<key>Identifier</key>
-	<string>com.github.killahquam.download.slack</string>
+	<string>com.github.beatlemike.download.slack</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
