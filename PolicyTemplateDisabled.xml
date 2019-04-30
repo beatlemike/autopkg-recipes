@@ -1,0 +1,36 @@
+<policy>
+	<general>
+		<name>Install - %PROD_NAME%</name>
+		<enabled>false</enabled>
+		<trigger_other>%POLICY_TRIGGER%</trigger_other>
+    <frequency>Ongoing</frequency>
+		<category>
+			<name>%POLICY_CATEGORY%</name>
+		</category>
+	</general>
+	<scope>
+		<all_computers>true</all_computers>
+		<limit_to_users>
+			<user_groups/>
+		</limit_to_users>
+	</scope>
+	<package_configuration>
+		<!--Package added by JSSImporter-->
+	</package_configuration>
+	<scripts>
+		<!--Scripts added by JSSImporter-->
+	</scripts>
+	<self_service>
+		<use_for_self_service>true</use_for_self_service>
+		<install_button_text>Install</install_button_text>
+		<self_service_display_name>%PROD_NAME%</self_service_display_name>
+		<reinstall_button_text>Reinstall</reinstall_button_text>
+		<self_service_description>%SELF_SERVICE_DESCRIPTION%</self_service_description>
+	</self_service>
+	<reboot>
+    	<specify_startup/>
+	</reboot>
+	<maintenance>
+		<recon>true</recon>
+	</maintenance>
+</policy>

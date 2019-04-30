@@ -17,7 +17,7 @@
             <key>POLICY_TRIGGER</key>
             <string>skype</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/PolicyTemplateDisabled.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/MicrosoftSkypeforBusiness.png</string>
             <key>DESCRIPTION</key>
