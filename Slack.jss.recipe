@@ -46,6 +46,8 @@
                     <string>%ICON%</string>
                     <key>self_service_description</key>
                     <string>%DESCRIPTION%</string>
+                    <key>pkg_path</key>
+                    <string>%pathname%</string>
                 </dict>
                 <key>Processor</key>
                 <string>JSSImporter</string>
