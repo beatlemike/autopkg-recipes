@@ -11,7 +11,7 @@
             <key>NAME</key>
             <string>TechSmith Camtasia</string>
 			<key>CAMTASIA_KEY</key>
-			<string>fffe48005a004300380042002d00320043004d00530033002d00530052004600350044002d004d0041005000430033002d0034004400440041003200</string>
+			<string></string>
             <key>CATEGORY</key>
             <string>Design</string>
             <key>POLICY_CATEGORY</key>
@@ -113,6 +113,8 @@
                 <dict>
                     <key>prod_name</key>
                     <string>%NAME%</string>
+                    <key>pkg_path</key>
+                	<string>%pkg_path%</string>
                     <key>category</key>
                     <string>%CATEGORY%</string>
                     <key>policy_category</key>
