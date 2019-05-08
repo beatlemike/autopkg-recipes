@@ -3,13 +3,13 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads the current release version of Apple Xerox Printer Drivers and uploads it to the JSS.</string>
+        <string>Downloads the current release version of Apple HP Printer Drivers and uploads it to the JSS.</string>
         <key>Identifier</key>
         <string>com.github.beatlemike.jss.AppleHPPrinterDrivers</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Apple XP Printer Drivers</string>
+            <string>Apple HP Printer Drivers</string>
             <key>CATEGORY</key>
             <string>Printers</string>
             <key>POLICY_CATEGORY</key>
