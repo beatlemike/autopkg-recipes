@@ -21,7 +21,7 @@
             <key>ICON</key>
             <string>%RECIPE_DIR%/AppleXeroxPrinterDrivers.png</string>
             <key>DESCRIPTION</key>
-            <string>Atom is a hackable text editor for the 21st Century.</string>
+            <string>Installs the latest software for your Xerox printer or scanner.</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.2.0</string>
