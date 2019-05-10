@@ -11,9 +11,9 @@
             <key>NAME</key>
             <string>Adobe Uninstall Unauthorized Versions</string>
             <key>CATEGORY</key>
-            <string>Developer Tools</string>
+            <string>Adobe</string>
             <key>POLICY_CATEGORY</key>
-            <string>Developer Tools</string>
+            <string>Adobe</string>
             <key>POLICY_TRIGGER</key>
             <string>adobepurge</string>
             <key>POLICY_TEMPLATE</key>
