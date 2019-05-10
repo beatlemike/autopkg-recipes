@@ -9,7 +9,7 @@
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>GoogleBackupandSync</string>
+            <string>Google Backup and Sync</string>
             <key>CATEGORY</key>
             <string>Cloud Services</string>
             <key>POLICY_CATEGORY</key>
