@@ -21,18 +21,7 @@
             <key>ICON</key>
             <string>%RECIPE_DIR%/MicrosoftOneDrive.png</string>
             <key>DESCRIPTION</key>
-            <string>Keep your files protected and accessible on all your devices with Microsoft OneDrive. Easily share documents, photos, and other files with friends, family, and colleagues, and even collaborate in real-time in Office. OneDrive can help you quickly organize and find the things that matter most.
-
-Anywhere access
-Easily store, access and discover your personal and shared work files in Office 365, including Microsoft Teams, directly in Finder. Edits you make offline are automatically uploaded next time you connect.
-
-Seamless collaboration
-Work faster and smarter with anyone inside or outside your organization. Securely share files and work together in real-time using Word, Excel and PowerPoint across web, mobile and desktop.
-
-Controls for security
-OneDrive helps protect your files. You can easily recover files from accidental deletes or malicious attacks and administrators can manage security policies to help keep your information safe.
-
-Note: For you to sign in to OneDrive for Business, your organization needs to have a qualifying SharePoint Online or Office 365 business subscription plan.</string>
+            <string>Keep your files protected and accessible on all your devices with Microsoft OneDrive. Easily share documents, photos, and other files with friends, family, and colleagues, and even collaborate in real-time in Office. OneDrive can help you quickly organize and find the things that matter most.</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.2.0</string>
