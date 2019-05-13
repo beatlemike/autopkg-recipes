@@ -37,7 +37,7 @@ Note: For you to sign in to OneDrive for Business, your organization needs to ha
         <key>MinimumVersion</key>
         <string>0.2.0</string>
         <key>ParentRecipe</key>
-        <string>io.github.hjuutilainen.pkg.MicrosoftOneDrive</string>
+        <string>com.github.rtrouton.pkg.microsoftonedriv</string>
         <key>Process</key>
         <array>
             <dict>
