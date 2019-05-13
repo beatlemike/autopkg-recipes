@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Description</key>
+        <string>Downloads the current release version of NoMAD Launch Agent and uploads it to the JSS.</string>
+        <key>Identifier</key>
+        <string>com.github.beatlemike.jss.NoMADLaunchAgent</string>
+        <key>Input</key>
+        <dict>
+            <key>NAME</key>
+            <string>NoMAD Launch Agent</string>
+            <key>CATEGORY</key>
+            <string>CSUSB</string>
+            <key>POLICY_CATEGORY</key>
+            <string>CSUSB</string>
+            <key>POLICY_TRIGGER</key>
+            <string>nomad</string>
+            <key>POLICY_TEMPLATE</key>
+            <string>%RECIPE_DIR%/PolicyTemplateNoSelfService.xml</string>
+            <key>ICON</key>
+            <string></string>
+            <key>DESCRIPTION</key>
+            <string>Keep your users on local accounts and let NoMAD Launch Agent manage their interaction with AD by allowing them to sign in with their AD account to get Kerberos tickets, certificates for 802.1X connections and other functions without having to have a mobile account.</string>
+        </dict>
+        <key>MinimumVersion</key>
+        <string>0.2.0</string>
+        <key>ParentRecipe</key>
+        <string>com.github.tbridge.pkg.NoMADLaunchAgent</string>
+        <key>Process</key>
+        <array>
+            <dict>
+                <key>Arguments</key>
+                <dict>
+                    <key>prod_name</key>
+                    <string>%NAME%</string>
+                    <key>category</key>
+                    <string>%CATEGORY%</string>
+                    <key>policy_category</key>
+                    <string>%POLICY_CATEGORY%</string>
+                    <key>trigger_other</key>
+                    <string>%POLICY_TRIGGER%</string>
+                    <key>policy_template</key>
+                    <string>%POLICY_TEMPLATE%</string>
+                    <key>self_service_icon</key>
+                    <string>%ICON%</string>
+                    <key>self_service_description</key>
+                    <string>%DESCRIPTION%</string>
+                </dict>
+                <key>Processor</key>
+                <string>JSSImporter</string>
+            </dict>
+        </array>
+    </dict>
+</plist>
