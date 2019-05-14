@@ -3,13 +3,13 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads the current release version of Open Office and uploads it to the JSS.</string>
+        <string>Downloads the current release version of OpenOffice and uploads it to the JSS.</string>
         <key>Identifier</key>
         <string>com.github.beatlemike.jss.OpenOffice</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Open Office</string>
+            <string>OpenOffice</string>
             <key>CATEGORY</key>
             <string>Productivity</string>
             <key>POLICY_CATEGORY</key>
