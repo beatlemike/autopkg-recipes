@@ -9,7 +9,7 @@
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>OneNote</string>
+            <string>Microsoft OneNote</string>
             <key>CATEGORY</key>
             <string>Microsoft</string>
             <key>POLICY_CATEGORY</key>
