@@ -1,6 +1,6 @@
 <policy>
 	<general>
-		<name>Install - %PROD_NAME%</name>
+		<name>Install - %PROD_NAME% - OSC</name>
 		<enabled>true</enabled>
 		<trigger_other>%POLICY_TRIGGER%</trigger_other>
     <frequency>Ongoing</frequency>

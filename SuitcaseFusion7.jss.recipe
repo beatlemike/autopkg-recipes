@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Description</key>
+        <string>Downloads the current release version of Suitcase Fusion 7 and uploads it to the JSS.</string>
+        <key>Identifier</key>
+        <string>com.github.beatlemike.jss.SuitcaseFusion7</string>
+        <key>Input</key>
+        <dict>
+            <key>NAME</key>
+            <string>Suitcase Fusion 7</string>
+            <key>CATEGORY</key>
+            <string>Design</string>
+            <key>POLICY_CATEGORY</key>
+            <string>Design</string>
+            <key>POLICY_TRIGGER</key>
+            <string>suitcase7</string>
+            <key>POLICY_TEMPLATE</key>
+            <string>%RECIPE_DIR%/PolicyTemplateOSC.xml</string>
+            <key>ICON</key>
+            <string>%RECIPE_DIR%/SuitcaseFusion7.png</string>
+            <key>DESCRIPTION</key>
+            <string>Manage all of your fonts from one source, no matter how many you have—including your system fonts, purchased fonts, fonts synced from Adobe Typekit, Google Fonts, and more. Turn them on and off as you need. Suitcase Fusion offers you the best way to organize, find, view, and use them within your existing workflow.</string>
+        </dict>
+        <key>MinimumVersion</key>
+        <string>0.2.0</string>
+        <key>ParentRecipe</key>
+        <string>com.github.dataJAR-recipes.pkg.Suitcase Fusion 7</string>
+        <key>Process</key>
+        <array>
+            <dict>
+                <key>Arguments</key>
+                <dict>
+                    <key>prod_name</key>
+                    <string>%NAME%</string>
+                    <key>category</key>
+                    <string>%CATEGORY%</string>
+                    <key>policy_category</key>
+                    <string>%POLICY_CATEGORY%</string>
+                    <key>trigger_other</key>
+                    <string>%POLICY_TRIGGER%</string>
+                    <key>policy_template</key>
+                    <string>%POLICY_TEMPLATE%</string>
+                    <key>self_service_icon</key>
+                    <string>%ICON%</string>
+                    <key>self_service_description</key>
+                    <string>%DESCRIPTION%</string>
+                </dict>
+                <key>Processor</key>
+                <string>JSSImporter</string>
+            </dict>
+        </array>
+    </dict>
+</plist>
