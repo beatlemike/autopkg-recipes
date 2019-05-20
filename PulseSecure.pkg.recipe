@@ -29,6 +29,17 @@
 				</dict>
 			</dict>
 			<dict>
+				<key>Arguments</key>
+				<dict>
+				   <key>destination_path</key>
+				   <string>%RECIPE_CACHE_DIR%/unpack</string>
+				   <key>flat_pkg_path</key>
+				   <string>%RECIPE_CACHE_DIR%/%NAME%.pkg</string>
+				</dict>
+				<key>Processor</key>
+				<string>FlatPkgUnpacker</string>
+			 </dict>
+			 <dict>
                 <key>Processor</key>
                 <string>Versioner</string>
                 <key>Arguments</key>
