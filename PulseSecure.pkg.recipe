@@ -31,28 +31,6 @@
                 	</dict>
             	</dict>
         	</dict>
-        	<dict>
-            	<key>Arguments</key>
-            	<dict>
-               		<key>destination_path</key>
-               		<string>%RECIPE_CACHE_DIR%/downloads/payload</string>
-               		<key>pkg_payload_path</key>
-               		<string>%RECIPE_CACHE_DIR%/Payload</string>
-            	</dict>
-            	<key>Processor</key>
-            	<string>PkgPayloadUnpacker</string>
-         	</dict>
-         	<dict>
-            	<key>Arguments</key>
-            	<dict>
-               		<key>input_plist_path</key>
-               		<string>%RECIPE_CACHE_DIR%/downloads/payload/Microsoft Outlook.app/Contents/Info.plist</string>
-               		<key>plist_version_key</key>
-               		<string>CFBundleVersion</string>
-            	</dict>
-            	<key>Processor</key>
-            	<string>Versioner</string>
-         	</dict>
             <dict>
             	<key>Processor</key>
             	<string>Copier</string>
@@ -64,6 +42,28 @@
                 	<string>%pkgroot%/Package/%NAME%.pkg</string>
             	</dict>
         	</dict>
+        	<dict>
+            	<key>Arguments</key>
+            	<dict>
+               		<key>destination_path</key>
+               		<string>%RECIPE_CACHE_DIR%/downloads/payload</string>
+               		<key>pkg_payload_path</key>
+               		<string>%pkgroot%/Package</string>
+            	</dict>
+            	<key>Processor</key>
+            	<string>PkgPayloadUnpacker</string>
+         	</dict>
+         	<dict>
+            	<key>Arguments</key>
+            	<dict>
+               		<key>input_plist_path</key>
+               		<string>%RECIPE_CACHE_DIR%/downloads/payload/Pulse Secure.app/Contents/Info.plist</string>
+               		<key>plist_version_key</key>
+               		<string>CFBundleVersion</string>
+            	</dict>
+            	<key>Processor</key>
+            	<string>Versioner</string>
+         	</dict>
         </array>
     </dict>
 </plist>
