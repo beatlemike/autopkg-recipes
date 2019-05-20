@@ -16,27 +16,23 @@
         <key>ParentRecipe</key>
     	<string>com.github.beatlemike.download.PulseSecure</string>
         <key>Process</key>
-        <array>
-        	<dict>
-				<key>Arguments</key>
-				<dict>
-					<key>pkg_path</key>
-					<string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
-					<key>source_pkg</key>
-					<string>%pathname%/*.pkg</string>
-				</dict>
-				<key>Processor</key>
-				<string>PkgCopier</string>
-			</dict>
+		<array>
+			<dict>
+            	<key>Processor</key>
+            	<string>AppDmgVersioner</string>
+            	<key>Arguments</key>
+            	<dict>
+                	<key>dmg_path</key>
+                	<string>%pathname%</string>
+            	</dict>
+        	</dict>
 			<dict>
 				<key>Arguments</key>
 				<dict>
-					<key>destination_path</key>
-					<string>%RECIPE_CACHE_DIR%/downloads/UNPACK</string>
 					<key>flat_pkg_path</key>
-					<string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
-					<key>purge_destination</key>
-					<string>true</string>
+					<string>%pathname%/Pulse Secure.pkg</string>
+					<key>destination_path</key>
+					<string>%RECIPE_CACHE_DIR%/expand</string>
 				</dict>
 				<key>Processor</key>
 				<string>FlatPkgUnpacker</string>
@@ -44,25 +40,14 @@
 			<dict>
 				<key>Arguments</key>
 				<dict>
-					<key>packageinfo_path</key>
-					<string>%RECIPE_CACHE_DIR%/downloads/UNPACK/Pulse Secure.pkg/PackageInfo</string>
+					<key>source_pkg</key>
+					<string>%pathname%/Pulse Secure.pkg</string>
+					<key>pkg_path</key>
+					<string>%RECIPE_CACHE_DIR%/Pulse Secure-%version%.pkg</string>
 				</dict>
 				<key>Processor</key>
-				<string>com.github.autopkg.novaksam-recipes.Processors/PackageInfoReader</string>
+				<string>PkgCopier</string>
 			</dict>
-			<dict>
-				<key>Arguments</key>
-				<dict>
-					<key>path_list</key>
-					<array>
-						<string>%RECIPE_CACHE_DIR%/downloads/UNPACK</string>
-					</array>
-				</dict>
-				<key>Comment</key>
-				<string>Gotta clean up after myself!</string>
-				<key>Processor</key>
-				<string>PathDeleter</string>
-			</dict>
-        </array>
+		</array>
     </dict>
 </plist>
