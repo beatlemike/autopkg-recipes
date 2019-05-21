@@ -13,7 +13,7 @@
             <key>CATEGORY</key>
             <string>Additional Installs</string>
             <key>POLICY_CATEGORY</key>
-            <string>Additional Installs/string>
+            <string>Additional Installs</string>
             <key>POLICY_TRIGGER</key>
             <string>silverlight</string>
             <key>POLICY_TEMPLATE</key>
