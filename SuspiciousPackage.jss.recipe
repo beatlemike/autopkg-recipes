@@ -9,7 +9,7 @@
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>SuspiciousPackage</string>
+            <string>Suspicious Package</string>
             <key>CATEGORY</key>
             <string>Developer Tools</string>
             <key>POLICY_CATEGORY</key>
@@ -21,7 +21,7 @@
             <key>ICON</key>
             <string>%RECIPE_DIR%/SuspiciousPackage.png</string>
             <key>DESCRIPTION</key>
-            <string>SuspiciousPackage</string>
+            <string>Suspicious Package allows you to see inside an installer package.</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.2.0</string>
