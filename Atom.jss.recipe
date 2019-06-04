@@ -3,7 +3,7 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads the current release version of Atom and uploads it to the JSS.</string>
+        <string>Downloads the current version of Atom and uploads it to the JSS.</string>
         <key>Identifier</key>
         <string>com.github.beatlemike.jss.atom</string>
         <key>Input</key>
