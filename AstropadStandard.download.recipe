@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Download recipe for Astropad Standard. Finds and downloads the latest Astropad Standard release.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.download.AstropadStandard</string>
+    <string>com.github.beatlemike.download.AstropadStandard</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
