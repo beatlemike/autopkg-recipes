@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest AstropadStandard and creates a package.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.pkg.AstropadStandard</string>
+    <string>com.github.beatlemike.pkg.AstropadStandard</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
