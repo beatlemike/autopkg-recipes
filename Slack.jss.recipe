@@ -11,7 +11,7 @@
             <key>NAME</key>
             <string>Slack</string>
             <key>CATEGORY</key>
-            <string>Communications</string>
+            <string>Communication</string>
             <key>POLICY_CATEGORY</key>
             <string>Communication</string>
             <key>POLICY_TRIGGER</key>
