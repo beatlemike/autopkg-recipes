@@ -11,11 +11,7 @@
             <key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
 			<false/>
 			<key>DOWNLOAD_URL</key>
-			<string>https://download.mozilla.org/?product=firefox-esr-latest&amp;os=osx&amp;lang=en-US</string>
-			<key>LOCALE</key>
-			<string>en-US</string>
-			<key>RELEASE</key>
-			<string>latest-esr</string>
+			<string>https://download.mozilla.org/?product=firefox-esr-next-latest-ssl&amp;os=osx&amp;lang=en-US</string>
 			<key>NAME</key>
             <string>Mozilla FirefoxESR</string>
 			<key>RELEASE</key>
