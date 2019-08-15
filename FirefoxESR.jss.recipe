@@ -14,8 +14,6 @@
 			<string>https://download.mozilla.org/?product=firefox-esr-next-latest-ssl&amp;os=osx&amp;lang=en-US</string>
 			<key>NAME</key>
             <string>Mozilla FirefoxESR</string>
-			<key>RELEASE</key>
-			<string>esr-latest</string>
             <key>CATEGORY</key>
             <string>Browsers</string>
             <key>POLICY_CATEGORY</key>
