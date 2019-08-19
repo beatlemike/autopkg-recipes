@@ -55,6 +55,8 @@
                     <string>%NAME%-%version%</string>
                     <key>version</key>
                     <string>%version%</string>
+                    <key>id</key>
+                    <string>io.macdaddy.Install-Disk-Creator</string>
                     <key>options</key>
                     <string>purge_ds_store</string>
                     <key>scripts</key>
