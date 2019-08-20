@@ -14,7 +14,7 @@
 		<string>Microsoft</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Browsers</string>
-		<key>POLICY_Trigger</key>
+		<key>POLICY_TRIGGER</key>
 		<string>edgebeta</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
