@@ -11,7 +11,7 @@
 		<key>NAME</key>
 		<string>Microsoft Edge Beta</string>
 		<key>DOWNLOAD_URL</key>
-		<string>https://go.microsoft.com/fwlink/?linkid=2069439</string>=
+		<string>https://go.microsoft.com/fwlink/?linkid=2069439</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
