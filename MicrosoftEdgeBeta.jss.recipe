@@ -26,7 +26,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.beatlemike.download.microsoftedgebeta</string>
+	<string>com.github.beatlemike.pkg.microsoftedgebeta</string>
 	<key>Process</key>
 	<array>
 		<dict>
