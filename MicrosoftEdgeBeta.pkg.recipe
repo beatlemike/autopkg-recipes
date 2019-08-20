@@ -5,7 +5,7 @@
       <key>Description</key>
       <string>Downloads the latest version of Microsoft Edge Beta installer package and renames the package.</string>
       <key>Identifier</key>
-      <string>com.github.rtrouton.pkg.microsoftedgebeta</string>
+      <string>com.github.beatlemike.pkg.microsoftedgebeta</string>
       <key>Input</key>
       <dict>
          <key>NAME</key>
