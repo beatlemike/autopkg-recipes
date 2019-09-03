@@ -3,19 +3,19 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads the current release version of VMware Tools 11 and uploads it to the JSS.</string>
+        <string>Downloads the current release version of VMware Tools and uploads it to the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.VMwareTools11</string>
+        <string>com.github.beatlemike.jss.VMwareTools</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>VMware Tools 11</string>
+            <string>VMware Tools</string>
             <key>CATEGORY</key>
             <string>Virtualization</string>
             <key>POLICY_CATEGORY</key>
             <string>Virtualization</string>
             <key>POLICY_TRIGGER</key>
-            <string>vmwaretools11</string>
+            <string>vmwaretools</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
             <key>ICON</key>
