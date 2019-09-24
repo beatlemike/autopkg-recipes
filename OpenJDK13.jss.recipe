@@ -3,9 +3,9 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads the latest version of OpenJDK 12, builds an installer package, then uploads to the JSS.</string>
+        <string>Downloads the latest version of OpenJDK 13, builds an installer package, then uploads to the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.OpenJDK12</string>
+        <string>com.github.beatlemike.jss.OpenJDK13</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
@@ -19,14 +19,14 @@
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
             <key>ICON</key>
-            <string>%RECIPE_DIR%/OpenJDK12.png</string>
+            <string>%RECIPE_DIR%/OpenJDK13.png</string>
             <key>DESCRIPTION</key>
             <string>Install the latest version of %NAME%.</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.2.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.rtrouton.pkg.OpenJDK12</string>
+        <string>com.github.rtrouton.pkg.OpenJDK13</string>
         <key>Process</key>
         <array>
             <dict>
