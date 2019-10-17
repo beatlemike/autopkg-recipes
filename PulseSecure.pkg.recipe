@@ -18,64 +18,81 @@
         <key>Process</key>
 		<array>
 			<dict>
-				<key>Processor</key>
-				<string>Copier</string>
-				<key>Arguments</key>
-				<dict>
-					<key>source_path</key>
-					<string>%RECIPE_CACHE_DIR%/downloads/%NAME%.dmg/*.pkg</string>
-					<key>destination_path</key>
-					<string>%RECIPE_CACHE_DIR%/%NAME%.pkg</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<dict>
-				   <key>destination_path</key>
-				   <string>%RECIPE_CACHE_DIR%/unpack</string>
-				   <key>flat_pkg_path</key>
-				   <string>%RECIPE_CACHE_DIR%/%NAME%.pkg</string>
-				</dict>
-				<key>Processor</key>
-				<string>FlatPkgUnpacker</string>
-			 </dict>
-			 <dict>
-                <key>Processor</key>
-                <string>Versioner</string>
-                <key>Arguments</key>
+            <key>Processor</key>
+            <string>AppDmgVersioner</string>
+            <key>Arguments</key>
+            <dict>
+                <key>dmg_path</key>
+                <string>%pathname%</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>PkgRootCreator</string>
+            <key>Arguments</key>
+            <dict>
+                <key>pkgroot</key>
+                <string>%RECIPE_CACHE_DIR%/%NAME%</string>
+                <key>pkgdirs</key>
                 <dict>
-                    <key>input_plist_path</key>
-                    <string>%RECIPE_CACHE_DIR%/downloads/Pulse\ Secure.dmg/PulseSecure.pkg/Applications/Pulse Secure.app/Contents/Info.plist</string>
-                    <key>plist_version_key</key>
-                    <string>CFBundleShortVersionString</string>
+                    <key>Applications</key>
+                    <string>0755</string>
                 </dict>
             </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>Copier</string>
+            <key>Arguments</key>
             <dict>
-                <key>Processor</key>
-                <string>PkgCopier</string>
-                <key>Arguments</key>
-                <dict>
-                    <key>source_pkg</key>
-                    <string>%pathname%</string>
-                    <key>pkg_path</key>
-                    <string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
-                </dict>
+                <key>source_path</key>
+                <string>%pathname%/Pulse Secure.app</string>
+                <key>destination_path</key>
+                <string>%pkgroot%/Applications/Pulse secure.app</string>
             </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>PkgCreator</string>
+            <key>Arguments</key>
             <dict>
-                <key>Arguments</key>
+                <key>pkgname</key>
+                <string>%NAME%-%version%</string>
+                <key>pkg_request</key>
                 <dict>
-                    <key>expected_authority_names</key>
+                    <key>pkgdir</key>
+                    <string>%RECIPE_CACHE_DIR%</string>
+                    <key>id</key>
+                    <string>net.pulsesecure.pulsesecure.pkg</string>
+                    <key>options</key>
+                    <string>purge_ds_store</string>
+                    <key>scripts</key>
+                    <string>Scripts</string>
+                    <key>chown</key>
                     <array>
-                        <string>Developer ID Installer: Palo Alto Networks (PXPZ95SK77)</string>
-                    	<string>Developer ID Certification Authority</string>
-                        <string>Apple Root CA</string>
+                        <dict>
+                            <key>path</key>
+                            <string>Applications</string>
+                            <key>user</key>
+                            <string>root</string>
+                            <key>group</key>
+                            <string>admin</string>
+                        </dict>
                     </array>
-                    <key>input_path</key>
-                    <string>%pathname%</string>
                 </dict>
-                <key>Processor</key>
-                <string>CodeSignatureVerifier</string>
             </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>PathDeleter</string>
+            <key>Arguments</key>
+            <dict>
+                <key>path_list</key>
+                <array>
+                <string>%RECIPE_CACHE_DIR%/%NAME%</string>                               
+                </array>
+            </dict>
+        </dict>
       </array>
    </dict>
 </plist>
