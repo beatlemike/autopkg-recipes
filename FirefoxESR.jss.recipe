@@ -11,7 +11,7 @@
             <key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
 			<false/>
 			<key>DOWNLOAD_URL</key>
-			<string>https://download.mozilla.org/?product=firefox-esr-next-latest-ssl&amp;os=osx&amp;lang=en-US</string>
+			<string>https://download.mozilla.org/?product=firefox-%RELEASE%-ssl&amp;os=osx&amp;lang=en-US</string>
 			<key>NAME</key>
             <string>Mozilla FirefoxESR</string>
 			<key>RELEASE</key>
@@ -32,7 +32,7 @@
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.rtrouton.pkg.Firefox</string>
+        <string>com.github.autopkg.download.firefox-rc-en_US</string>
         <key>Process</key>
         <array>
             <dict>
