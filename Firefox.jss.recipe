@@ -22,11 +22,13 @@
             <string>%RECIPE_DIR%/Firefox.png</string>
             <key>DESCRIPTION</key>
             <string>Mozilla Firefox is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary the Mozilla Corporation.</string>
+            <key>RELEASE</key>
+            <string>latest-esr</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.rtrouton.pkg.Firefox</string>
+        <string>com.github.autopkg.pkg.Firefox_EN</string>
         <key>Process</key>
         <array>
             <dict>
