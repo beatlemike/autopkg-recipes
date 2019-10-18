@@ -32,7 +32,7 @@
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.autopkg.download.firefox-rc-en_US</string>
+        <string>com.github.autopkg.pkg.Firefox_EN</string>
         <key>Process</key>
         <array>
             <dict>
