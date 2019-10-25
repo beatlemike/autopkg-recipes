@@ -5,7 +5,7 @@
         <key>Description</key>
         <string>Uses parent pkg recipe to download latest Adobe Creative Cloud Desktop App and import it into the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.AdobeCreativeCloudDesktopApp</string>
+        <string>com.github.beatlemike.jss.AdobeCCDesktop</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
@@ -14,11 +14,6 @@
             <string> CC Desktop</string>
             <key>CATEGORY</key>
             <string>Adobe</string>
-            <key>ICON</key>
-            <string>%RECIPE_DIR%/AdobeCreativeCloudDesktopApp.png</string>
-            <key>DESCRIPTION</key>
-            <string>Creative Cloud for desktop is a great place to start any creative project. Quickly launch and update your desktop apps; manage and share your assets stored in Creative Cloud; download fonts from Adobe Typekit or high-quality royalty-free assets right within the app; and showcase and discover creative work on Behance. Best of all, the application stays out of your way but is there when you need it, so you can focus on creativity.</string>
-        </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
