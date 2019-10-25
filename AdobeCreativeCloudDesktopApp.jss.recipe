@@ -32,16 +32,6 @@
                     <string>%NAME%</string>
                     <key>category</key>
                     <string>%CATEGORY%</string>
-                    <key>policy_category</key>
-                    <string>%POLICY_CATEGORY%</string>
-                    <key>trigger_other</key>
-                    <string>%POLICY_TRIGGER%</string>
-                    <key>policy_template</key>
-                    <string>%POLICY_TEMPLATE%</string>
-                    <key>self_service_icon</key>
-                    <string>%ICON%</string>
-                    <key>self_service_description</key>
-                    <string>%DESCRIPTION%</string>
                 </dict>
                 <key>Processor</key>
                 <string>JSSImporter</string>
