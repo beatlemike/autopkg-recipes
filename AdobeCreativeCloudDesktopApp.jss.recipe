@@ -14,12 +14,6 @@
             <string> CC Desktop</string>
             <key>CATEGORY</key>
             <string>Adobe</string>
-            <key>POLICY_CATEGORY</key>
-            <string>Adobe</string>
-            <key>POLICY_TRIGGER</key>
-            <string>adobeccda</string>
-            <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/AdobeCreativeCloudDesktopApp.png</string>
             <key>DESCRIPTION</key>
