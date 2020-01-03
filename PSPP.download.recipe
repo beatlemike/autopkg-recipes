@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the latest version of PSPP from hs-augsburg.de.</string>
+	<key>Identifier</key>
+	<string>com.github.beatlemike.download.PSPP</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>PSPP</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.4</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Processor</key>
+			<string>URLTextSearcher</string>
+			<key>Arguments</key>
+			<dict>
+				<key>re_pattern</key>
+				<string>href="0.0_LATEST-IS-(?P&lt;full_version&gt;[\d\.]+)"</string>
+				<key>url</key>
+				<string>https://www.hs-augsburg.de/~beckmanf/pspp/</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>URLDownloader</string>
+			<key>Arguments</key>
+			<dict>
+				<key>url</key>
+				<string>https://www.hs-augsburg.de/~beckmanf/pspp/pspp-%full_version%.dmg</string>
+				<key>filename</key>
+				<string>%NAME%.dmg</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
+	</array>
+</dict>
+</plist>
