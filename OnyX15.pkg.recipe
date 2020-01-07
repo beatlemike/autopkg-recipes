@@ -14,7 +14,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.beatlemike.download.OnyX15w</string>
+	<string>com.github.beatlemike.download.OnyX15</string>
 	<key>Process</key>
 	<array>
 		<dict>
