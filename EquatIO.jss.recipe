@@ -35,7 +35,7 @@
                     <key>prod_name</key>
                     <string>%NAME%</string>
                     <key>pkg_path</key>
-                    <string>%RECIPE_CACHE_DIR%/downloads</string>
+                    <string>%RECIPE_CACHE_DIR%/downloads/</string>
                     <key>category</key>
                     <string>%CATEGORY%</string>
                     <key>policy_category</key>
