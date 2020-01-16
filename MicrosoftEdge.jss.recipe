@@ -3,30 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Microsoft Edge Beta and imports it into your JSS.</string>
+	<string>Downloads the latest version of Microsoft Edge and imports it into your JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.beatlemike.jss.microsoftedgebeta</string>
+	<string>com.github.beatlemike.jss.microsoftedge</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Microsoft Edge Beta</string>
+		<string>Microsoft Edge</string>
 		<key>CATEGORY</key>
 		<string>Microsoft</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Browsers</string>
 		<key>POLICY_TRIGGER</key>
-		<string>edgebeta</string>
+		<string>edge</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
 		<key>ICON</key>
-		<string>%RECIPE_DIR%/MicrosoftEdgeBeta.png</string>
+		<string>%RECIPE_DIR%/MicrosoftEdge.png</string>
 		<key>DESCRIPTION</key>
 		<string>Microsoft Edge helps you browse, search, shop online, and more. Like all modern browsers, Microsoft Edge lets you collect and store specific data on your device, like cookies, and lets you send information to us, like browsing history, to make the experience as rich, fast, and personal as possible.</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.beatlemike.pkg.microsoftedgebeta</string>
+	<string>com.github.rtrouton.pkg.microsoftedge</string>
 	<key>Process</key>
 	<array>
 		<dict>
