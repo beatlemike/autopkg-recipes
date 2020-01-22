@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the latest version of Kensington TrackballWorks.</string>
+    <string>Downloads the latest version of KensingtonWorks.</string>
     <key>Identifier</key>
-    <string>com.github.apizz.download.KensingtonTrackballWorks</string>
+    <string>com.github.beatlemike.download.KensingtonWorks</string>
     <key>Input</key>
     <dict>
         <key>SEARCH_PATTERN</key>
@@ -34,7 +34,7 @@
             <key>Arguments</key>
             <dict>
                 <key>filename</key>
-                <string>%NAME%.dmg</string>
+                <string>%NAME%.pkg</string>
                 <key>url</key>
                 <string>https://www.kensington.com%url%</string>
             </dict>
