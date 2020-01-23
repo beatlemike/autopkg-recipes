@@ -15,7 +15,7 @@
         	<key>PLATFORM</key>
         	<string>mac</string>
         	<key>DOWNLOAD_URL</key>
-        	<string>https://%HOSTNAME%/global-protect/getmsi.esp?version=none&platform=%PLATFORM%</string>
+        	<string>https://%HOSTNAME%/global-protect/getmsi.esp?version=none&amp;platform=%PLATFORM%</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.6.1</string>
