@@ -16,7 +16,7 @@
         <key>MinimumVersion</key>
         <string>1.0.0</string>
         <key>ParentRecipe</key>
-        <string>om.github.rtrouton.pkg.MicrosoftAutoUpdate</string>
+        <string>com.github.rtrouton.pkg.MicrosoftAutoUpdate</string>
         <key>Process</key>
         <array>
             <dict>
