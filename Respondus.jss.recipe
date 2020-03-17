@@ -8,12 +8,8 @@
 		<string>com.github.beatlemike.jss.Respondus</string>
 		<key>Input</key>
 		<dict>
-			<key>INSTITUTION_ID</key>
-			<string>688284602</string>
-			<key>LAB_HASH</key>
-			<string>9325f88657a93a7fcd7b515a278ea09f</string>
 			<key>NAME</key>
-			<string>Install Respondus LockDown Browser (x64c) %INSTITUTION_ID%{%LAB_HASH%}</string>
+			<string>Respondus LockDown Browser</string>
 			<key>CATEGORY</key>
 			<string>CSUSB</string>
 			<key>POLICY_CATEGORY</key>
@@ -26,6 +22,10 @@
 			<string>%RECIPE_DIR%/Respondus.png</string>
 			<key>DESCRIPTION</key>
 			<string>LockDown Browser® is a custom browser that locks down the testing environment within a learning management system. Used at over 1500 higher educational institutions, LockDown Browser is the “gold standard” for securing online exams in classrooms or proctored environments.</string>
+			<key>INSTITUTION_ID</key>
+			<string>688284602</string>
+			<key>LAB_HASH</key>
+			<string>9325f88657a93a7fcd7b515a278ea09f</string>
 		</dict>
 		<key>MinimumVersion</key>
 		<string>0.4.0</string>
