@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads Camtasia disk image, builds a package, and imports into JSS. The installer package includes a preinstall script that will check for an existing "Camtasia 3.app" in /Applications and remove it if found.</string>
+    <string>Downloads Respondus LockDown Browser and imports into JSS.</string>
     <key>Identifier</key>
     <string>com.github.autopkg.beatlemike.jss.Respondus</string>
     <key>Input</key>
@@ -29,13 +29,13 @@
         <key>POLICY_CATEGORY</key>
         <string>Design</string>
         <key>POLICY_TRIGGER</key>
-        <string>camtasia</string>
+        <string>respondus</string>
         <key>POLICY_TEMPLATE</key>
         <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
         <key>SELF_SERVICE_ICON</key>
-        <string>%RECIPE_DIR%/TechSmithCamtasia.png</string>
+        <string>%RECIPE_DIR%/Respondus.png</string>
         <key>SELF_SERVICE_DESCRIPTION</key>
-        <string>Powerful, yet easy-to-use, Camtasia helps you create professional videos without having to be a video pro. Easily record your on-screen activity or import HD camera video, customize and edit content, and share your videos with viewers on nearly any device.</string>
+        <string>LockDown Browser® is a custom browser that locks down the testing environment within a learning management system. Used at over 1500 higher educational institutions, LockDown Browser is the “gold standard” for securing online exams in classrooms or proctored environments.</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.4.0</string>
