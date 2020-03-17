@@ -13,7 +13,7 @@
 			<key>LAB_HASH</key>
 			<string>9325f88657a93a7fcd7b515a278ea09f</string>
 			<key>NAME</key>
-			<string>LockDownBrowser</string>
+			<string>Install Respondus LockDown Browser (x64c) %INSTITUTION_ID%{%LAB_HASH%}</string>
 			<key>CATEGORY</key>
 			<string>CSUSB</string>
 			<key>POLICY_CATEGORY</key>
