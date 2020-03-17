@@ -25,9 +25,9 @@
 		<key>VERSION_SEARCH_URL</key>
 		<string>https://www.respondus.com/lockdown/download7.php?id=</string>
         <key>CATEGORY</key>
-        <string>Design</string>
+        <string>CSUSB</string>
         <key>POLICY_CATEGORY</key>
-        <string>Design</string>
+        <string>CSUSB</string>
         <key>POLICY_TRIGGER</key>
         <string>respondus</string>
         <key>POLICY_TEMPLATE</key>
