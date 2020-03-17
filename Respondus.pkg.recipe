@@ -20,6 +20,6 @@
 		<key>ParentRecipe</key>
 		<string>com.github.aysiu.download.LockDownBrowserLab</string>
 		<key>Process</key>
-		<array \>
+		<array/>
 	</dict>
 </plist>
