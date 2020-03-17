@@ -8,12 +8,22 @@
     <string>com.github.autopkg.beatlemike.jss.Respondus</string>
     <key>Input</key>
     <dict>
+    	<key>BASE_URL</key>
+		<string>http://www.respondus7.com/downloads/cmaclab/download.php?instid=</string>
+		<key>DOWNLOAD_URL</key>
+		<string>%BASE_URL%%INSTITUTION_ID%%LAB_HASH_QUERY%%LAB_HASH%</string>
 		<key>INSTITUTION_ID</key>
 		<string>688284602</string>
 		<key>LAB_HASH</key>
 		<string>9325f88657a93a7fcd7b515a278ea09f</string>
+		<key>LAB_HASH_QUERY</key>
+		<string>&amp;labhash=</string>
 		<key>NAME</key>
 		<string>LockDownBrowser</string>
+		<key>SEARCH_URL</key>
+		<string>%VERSION_SEARCH_URL%%INSTITUTION_ID%</string>
+		<key>VERSION_SEARCH_URL</key>
+		<string>https://www.respondus.com/lockdown/download7.php?id=</string>
         <key>CATEGORY</key>
         <string>CSUSB</string>
         <key>POLICY_CATEGORY</key>
