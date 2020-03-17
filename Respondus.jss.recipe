@@ -22,9 +22,9 @@
         <string>respondus</string>
         <key>POLICY_TEMPLATE</key>
         <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
-        <key>SELF_SERVICE_ICON</key>
+        <key>ICON</key>
         <string>%RECIPE_DIR%/Respondus.png</string>
-        <key>SELF_SERVICE_DESCRIPTION</key>
+        <key>DESCRIPTION</key>
         <string>LockDown Browser® is a custom browser that locks down the testing environment within a learning management system. Used at over 1500 higher educational institutions, LockDown Browser is the “gold standard” for securing online exams in classrooms or proctored environments.</string>
     </dict>
     <key>MinimumVersion</key>
@@ -47,9 +47,9 @@
                 <key>policy_template</key>
                 <string>%POLICY_TEMPLATE%</string>
                 <key>self_service_icon</key>
-                <string>%SELF_SERVICE_ICON%</string>
+                <string>%ICON%</string>
                 <key>self_service_description</key>
-                <string>%SELF_SERVICE_DESCRIPTION%</string>
+                <string>%DESCRIPTION%</string>
             </dict>
             <key>Processor</key>
             <string>JSSImporter</string>
