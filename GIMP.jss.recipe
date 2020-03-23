@@ -26,7 +26,7 @@
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>io.github.hjuutilainen.pkg.GIMP</string>
+        <string>com.github.hansen-m.pkg.gimp</string>
         <key>Process</key>
         <array>
             <dict>
