@@ -22,6 +22,8 @@
             <string>%RECIPE_DIR%/CiscoJabber.png</string>
             <key>DESCRIPTION</key>
             <string>Cisco Jabber allows the secure use of your organization provided number via a virtual softphone on your Mac when working remote.</string>
+            <key>FILE_SHARE</key>
+            <string>/Volumes/techsoftware$/Software for macOS/Cisco Jabber/</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.2.0</string>
