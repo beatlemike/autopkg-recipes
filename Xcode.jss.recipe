@@ -5,7 +5,7 @@
         <key>Description</key>
         <string>Packages a local installation of XCode, then uploads to the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.Xcode</string>
+        <string>com.github.beatlemike.jss.XcodeApp</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
