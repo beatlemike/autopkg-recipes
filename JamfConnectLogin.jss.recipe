@@ -3,13 +3,13 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads the current release version of NoMAD and uploads it to the JSS.</string>
+        <string>Downloads the current release version of JamfConnect Login  and uploads it to the JSS.</string>
         <key>Identifier</key>
         <string>com.github.beatlemike.jss.JamfConnectLogin</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>JamfConnect Login </string>
+            <string>JamfConnect Login</string>
             <key>CATEGORY</key>
             <string>CSUSB</string>
             <key>POLICY_CATEGORY</key>
