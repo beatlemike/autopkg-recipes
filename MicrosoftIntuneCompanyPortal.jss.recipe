@@ -24,7 +24,7 @@
             <string>The Company Portal provides access to corporate apps and resources from almost any network.</string>
         </dict>
         <key>MinimumVersion</key>
-        <string>0.2.0</string>
+        <string>1.0.0</string>
         <key>ParentRecipe</key>
         <string>com.github.rtrouton.pkg.MicrosoftIntuneCompanyPortal</string>
         <key>Process</key>
