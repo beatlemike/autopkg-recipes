@@ -18,7 +18,7 @@
 		<key>MinimumVersion</key>
 		<string>0.4.0</string>
 		<key>ParentRecipe</key>
-		<string>com.github.aysiu.download.LockDownBrowserLab</string>
+		<string>com.github.nstrauss.download.RespondusLockDownBrowserLab</string>
 		<key>Process</key>
 		<array/>
 	</dict>
