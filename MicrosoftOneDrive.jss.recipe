@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>Description</key>
-        <string>Downloads the current release version of Microsoft OneDrive and uploads it to the JSS.</string>
-        <key>Identifier</key>
-        <string>com.github.beatlemike.jss.MicrosoftOneDrive</string>
-        <key>Input</key>
-        <dict>
-            <key>NAME</key>
+<dict>
+	<key>Description</key>
+	<string>Downloads the latest version of the Microsoft OneDrive Standalone installer and imports it into your JSS.</string>
+	<key>Identifier</key>
+	<string>com.github.rtrouton.jss.MicrosoftOneDrive</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
             <string>Microsoft OneDrive</string>
-            <key>PRODUCTID</key>
-            <string>861011</string>
             <key>CATEGORY</key>
             <string>Microsoft</string>
             <key>POLICY_CATEGORY</key>
@@ -26,7 +24,7 @@
             <string>Keep your files protected and accessible on all your devices with Microsoft OneDrive. Easily share documents, photos, and other files with friends, family, and colleagues, and even collaborate in real-time in Office. OneDrive can help you quickly organize and find the things that matter most.</string>
         </dict>
         <key>MinimumVersion</key>
-        <string>0.2.0</string>
+        <string>0.6.0</string>
         <key>ParentRecipe</key>
         <string>com.github.rtrouton.pkg.microsoftonedrive</string>
         <key>Process</key>
