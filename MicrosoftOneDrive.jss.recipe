@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of the Microsoft OneDrive Standalone installer and imports it into your JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.rtrouton.jss.MicrosoftOneDrive</string>
+	<string>com.github.beatlemike.jss.MicrosoftOneDrive</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
