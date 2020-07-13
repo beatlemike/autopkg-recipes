@@ -9,9 +9,9 @@
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Adobe CC Desktop</string>
+            <string>Adobe CC Desktop - No License</string>
             <key>NAMEWITHOUTSPACES</key>
-            <string> CC Desktop</string>
+            <string> CC Desktop - No License</string>
             <key>CATEGORY</key>
             <string>Adobe</string>
         </dict>
