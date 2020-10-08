@@ -5,7 +5,7 @@
         <key>Description</key>
         <string>Downloads the latest version of the Zoom client for IT Administrators.</string>
         <key>Identifier</key>
-        <string>com.github.beatlemike.download.zoom</string>
+        <string>com.github.beatlemike.download.zoomit</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
