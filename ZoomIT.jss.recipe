@@ -5,7 +5,7 @@
         <key>Description</key>
         <string>Downloads the current release version of the Zoom client for IT, builds a package, then uploads to the JSS</string>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.zoom</string>
+        <string>com.github.beatlemike.jss.zoomit</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
@@ -26,7 +26,7 @@
         <key>MinimumVersion</key>
         <string>0.2.0</string>
         <key>ParentRecipe</key>
-        <string>corp.sap.maccoe.pkg.zoomit</string>
+        <string>com.github.beatlemike.pkg.zoomit</string>
         <key>Process</key>
         <array>
             <dict>
