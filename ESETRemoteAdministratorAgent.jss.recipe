@@ -12,16 +12,6 @@
             <string>ESET Remote Administrator Agent</string>
             <key>CATEGORY</key>
             <string>Security</string>
-            <key>POLICY_CATEGORY</key>
-            <string>Security</string>
-            <key>POLICY_TRIGGER</key>
-            <string>esetagent</string>
-            <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
-            <key>ICON</key>
-            <string>%RECIPE_DIR%/ESETRemoteAdministratorAgent.png</string>
-            <key>DESCRIPTION</key>
-            <string>Agent for ESET Endpoint Antivirus client.</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
@@ -36,16 +26,6 @@
                     <string>%NAME%</string>
                     <key>category</key>
                     <string>%CATEGORY%</string>
-                    <key>policy_category</key>
-                    <string>%POLICY_CATEGORY%</string>
-                    <key>trigger_other</key>
-                    <string>%POLICY_TRIGGER%</string>
-                    <key>policy_template</key>
-                    <string>%POLICY_TEMPLATE%</string>
-                    <key>self_service_icon</key>
-                    <string>%ICON%</string>
-                    <key>self_service_description</key>
-                    <string>%DESCRIPTION%</string>
                 </dict>
                 <key>Processor</key>
                 <string>JSSImporter</string>
