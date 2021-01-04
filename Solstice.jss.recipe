@@ -8,8 +8,6 @@
         <string>com.github.beatlemike.jss.Solstice</string>
         <key>Input</key>
         <dict>
-            <key>APP_FILENAME</key>
-            <string>Solstice Client</string>
             <key>NAME</key>
             <string>Solstice</string>
             <key>CATEGORY</key>
@@ -36,6 +34,8 @@
             <dict>
                 <key>Arguments</key>
                 <dict>
+                    <key>APP_FILENAME</key>
+                    <string>Solstice Client</string>
                     <key>prod_name</key>
                     <string>%NAME%</string>
                     <key>category</key>
