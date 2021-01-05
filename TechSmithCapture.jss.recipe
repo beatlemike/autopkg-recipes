@@ -15,7 +15,7 @@
         <key>POLICY_CATEGORY</key>
         <string>Design</string>
         <key>POLICY_TRIGGER</key>
-        <string>snagit</string>
+        <string>capture</string>
         <key>POLICY_TEMPLATE</key>
         <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
         <key>SELF_SERVICE_ICON</key>
