@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>Downloads Capture disk image, builds a package, and imports into JSS.</string>
+    <key>Identifier</key>
+    <string>com.github.autopkg.beatlemike.jss.TechSmithCapture</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>TechSmith Capture</string>
+        <key>CATEGORY</key>
+        <string>Design</string>
+        <key>POLICY_CATEGORY</key>
+        <string>Design</string>
+        <key>POLICY_TRIGGER</key>
+        <string>snagit</string>
+        <key>POLICY_TEMPLATE</key>
+        <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+        <key>SELF_SERVICE_ICON</key>
+        <string>%RECIPE_DIR%/TechSmithCapture.png</string>
+        <key>SELF_SERVICE_DESCRIPTION</key>
+        <string>Whether for work, home, or play, TechSmith Capture provides a simple, free way to create basic screenshots and screen recordings and share them with others.</string>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>1.0.0</string>
+    <key>ParentRecipe</key>
+    <string>com.github.autopkg.beatlemike.pkg.TechSmithCapture</string>
+    <key>Process</key>
+    <array>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>prod_name</key>
+                <string>%NAME%</string>
+                <key>category</key>
+                <string>%CATEGORY%</string>
+                <key>policy_category</key>
+                <string>%POLICY_CATEGORY%</string>
+                <key>trigger_other</key>
+                <string>%POLICY_TRIGGER%</string>
+                <key>policy_template</key>
+                <string>%POLICY_TEMPLATE%</string>
+                <key>self_service_icon</key>
+                <string>%SELF_SERVICE_ICON%</string>
+                <key>self_service_description</key>
+                <string>%SELF_SERVICE_DESCRIPTION%</string>
+            </dict>
+            <key>Processor</key>
+            <string>JSSImporter</string>
+        </dict>
+    </array>
+</dict>
+</plist>
