@@ -30,7 +30,4 @@
 	<reboot>
     	<specify_startup/>
 	</reboot>
-	<maintenance>
-		<recon>true</recon>
-	</maintenance>
 </policy>
