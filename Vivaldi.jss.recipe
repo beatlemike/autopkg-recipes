@@ -26,7 +26,7 @@
         <key>MinimumVersion</key>
         <string>0.2.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.sheagcraig.pkg.Vivaldi</string>
+        <string>com.github.beatlemike.pkg.Vivaldi</string>
         <key>Process</key>
         <array>
             <dict>
