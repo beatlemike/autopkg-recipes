@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads and packages the latest verison Respondus' LockDown Browser Lab Edition and then uploads it to a JPS.
+
+The download recipe requires you to set your Institution ID and Lab Hash.
+
+Because Repondus does silly things by expecting the licencing information in the file name, this does package inception so that the package name in Jamf Pro is a standard format.</string>
+	<key>Identifier</key>
+	<string>com.github.beatlemike.jss.RespondusLockDownBrowserLabEdition</string>
+	<key>Input</key>
+        <dict>
+            <key>NAME</key>
+            <string>Respondus LockDown Browser</string>
+            <key>CATEGORY</key>
+            <string>CSUSB</string>
+            <key>POLICY_CATEGORY</key>
+            <string>CSUSB</string>
+            <key>POLICY_TRIGGER</key>
+            <string>respondus</string>
+            <key>POLICY_TEMPLATE</key>
+            <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+            <key>ICON</key>
+            <string>%RECIPE_DIR%/Respondus.png</string>
+            <key>DESCRIPTION</key>
+            <string>LockDown Browser is a custom browser that locks down the testing environment within a learning management system. </string>
+        </dict>
+	<key>ParentRecipe</key>
+	<string>com.github.mlbz521.pkg.RespondusLockDownBrowserLabEdition</string>
+    <key>Process</key>
+    <array>
+		<dict>
+			<key>Processor</key>
+			<string>JSSImporter</string>
+			<key>Arguments</key>
+			<dict>
+				<key>pkg_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
+				<key>prod_name</key>
+				<string>%NAME%</string>
+				<key>category</key>
+				<string>%CATEGORY%</string>
+				<key>policy_category</key>
+				<string>%POLICY_CATEGORY%</string>
+				<key>policy_template</key>
+				<string>%POLICY_TEMPLATE%</string>
+				<key>self_service_description</key>
+				<string>%SELF_SERVICE_DESCRIPTION%</string>
+				<key>self_service_icon</key>
+				<string>%SELF_SERVICE_ICON%</string>
+				<key>groups</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>%GROUP_NAME%</string>
+						<key>smart</key>
+						<true/>
+						<key>template_path</key>
+						<string>%GROUP_TEMPLATE%</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
