@@ -6,7 +6,7 @@
 	<string>Downloads the latest version of Evernote and makes a pkg of it
 </string>
     <key>Identifier</key>
-    <string>com.github.autopkg.pkg.Evernote</string>
+    <string>com.github.beatlemike.pkg.Evernote</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
