@@ -3,13 +3,13 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads the latest version of Powershell and makes a pkg. Then, uploads to the JSS.</string>
+        <string>Downloads the latest version of PowerShell and makes a pkg. Then, uploads to the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.Powershell</string>
+        <string>com.github.beatlemike.jss.MicrosoftPowerShell</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Powershell</string>
+            <string>PowerShell</string>
             <key>CATEGORY</key>
             <string>Developer Tools</string>
             <key>POLICY_CATEGORY</key>
@@ -19,14 +19,14 @@
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
             <key>ICON</key>
-            <string>%RECIPE_DIR%/Powershell.png</string>
+            <string>%RECIPE_DIR%/PowerShell.png</string>
             <key>DESCRIPTION</key>
             <string>PowerShell is a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework.</string>
         </dict>
         <key>MinimumVersion</key>
         <string>1.0.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.d33t5.pkg.Powershell</string>
+        <string>com.github.d33t5.pkg.PowerShell</string>
         <key>Process</key>
         <array>
             <dict>
