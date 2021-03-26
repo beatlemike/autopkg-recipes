@@ -5,7 +5,7 @@
         <key>Description</key>
         <string>Downloads the current release version of Evernote and uploads it to the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.evernote</string>
+        <string>com.github.beatlemike.jss.Evernote</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
@@ -26,7 +26,7 @@
         <key>MinimumVersion</key>
         <string>0.2.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.autopkg.pkg.Evernote</string>
+        <string>com.github.beatlemike.pkg.evernote</string>
         <key>Process</key>
         <array>
             <dict>
