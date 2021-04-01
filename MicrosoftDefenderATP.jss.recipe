@@ -11,7 +11,7 @@
 		<key>NAME</key>
 		<string>Microsoft Defender ATP</string>
 		<key>CATEGORY</key>
-		<string>Microsoft</string>
+		<string>Security</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Security</string>
 		<key>POLICY_TRIGGER</key>
