@@ -20,15 +20,13 @@
             <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/OpenJDK16.png</string>
-            <key>MAJOR_VERSION</key>
-            <string>16</string>
             <key>DESCRIPTION</key>
             <string>Install the latest version of %NAME%.</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.2.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.rtrouton.pkg.OpenJDK13</string>
+        <string>com.github.peshay.pkg.OpenJDK16</string>
         <key>Process</key>
         <array>
             <dict>
