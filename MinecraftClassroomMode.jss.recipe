@@ -3,30 +3,30 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads the current release version of Suitcase Fusion 21 and uploads it to the JSS.</string>
+        <string>Downloads the current release version of Classroom Mode for Minecraft and uploads it to the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.SuitcaseFusion21</string>
+        <string>com.github.beatlemike.jss.MinecraftClassroomMode</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Suitcase Fusion 21</string>
+            <string>Classroom Mode for Minecraft</string>
             <key>CATEGORY</key>
-            <string>Design</string>
+            <string>Developer Tools</string>
             <key>POLICY_CATEGORY</key>
-            <string>Design</string>
+            <string>Developer Tools</string>
             <key>POLICY_TRIGGER</key>
-            <string>suitcase21</string>
+            <string>minecraftclassroommode</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/PolicyTemplateOSC.xml</string>
+            <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
             <key>ICON</key>
-            <string>%RECIPE_DIR%/SuitcaseFusion21.png</string>
+            <string>%RECIPE_DIR%/MinecraftClassroomMode.png</string>
             <key>DESCRIPTION</key>
-            <string>Manage all of your fonts from one source, no matter how many you have—including your system fonts, purchased fonts, fonts synced from Adobe Typekit, Google Fonts, and more. Turn them on and off as you need. Suitcase Fusion offers you the best way to organize, find, view, and use them within your existing workflow.</string>
+            <string>Classroom Mode for Minecraft specifically designed for classroom use. It is being developed by Mojang AB and Microsoft Studios and contains features that make Minecraft easy to use in a classroom setting.</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.2.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.dataJAR-recipes.pkg.Suitcase Fusion 21</string>
+        <string>com.github.haircut.pkg.MinecraftEdu-ClassroomMode</string>
         <key>Process</key>
         <array>
             <dict>
