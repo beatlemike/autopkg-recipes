@@ -3,13 +3,13 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads the latest version of OpenJDK 16, builds an installer package, then uploads to the JSS.</string>
+        <string>Downloads the latest version of AdoptOpenJDK 11, builds an installer package, then uploads to the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.OpenJDK16</string>
+        <string>com.github.beatlemike.jss.AdoptOpenJDK11</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Open Java Development Kit</string>
+            <string>AdoptOpenJDK 11</string>
             <key>CATEGORY</key>
             <string>Additional Installs</string>
             <key>POLICY_CATEGORY</key>
@@ -19,14 +19,14 @@
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
             <key>ICON</key>
-            <string>%RECIPE_DIR%/OpenJDK16.png</string>
+            <string>%RECIPE_DIR%/AdoptOpenJDK11.png</string>
             <key>DESCRIPTION</key>
             <string>Install the latest version of %NAME%.</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.2.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.peshay.pkg.OpenJDK16</string>
+        <string>com.github.grahampugh.recipes.pkg.AdoptOpenJDK11</string>
         <key>Process</key>
         <array>
             <dict>
