@@ -3,30 +3,30 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads the current release version of OBS and uploads it to the JSS.</string>
+        <string>Uses parent pkg recipe to download latest TheUnarchiver and import it into the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.OBS</string>
+        <string>com.github.beatlemike.jss.TheUnarchiver</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>OBS Studio</string>
+            <string>TheUnarchiver</string>
             <key>CATEGORY</key>
-            <string>Media</string>
+            <string>Utilities</string>
             <key>POLICY_CATEGORY</key>
-            <string>Media</string>
+            <string>Utilities</string>
             <key>POLICY_TRIGGER</key>
-            <string>obs</string>
+            <string>theunarchiver</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
             <key>ICON</key>
-            <string>%RECIPE_DIR%/OBS.png</string>
+            <string>%RECIPE_DIR%/TheUnarchiver.png</string>
             <key>DESCRIPTION</key>
-            <string>OBS (Open Broadcaster Software) is free and open source software for video recording and live streaming. Stream to Twitch, YouTube and many other providers or record your own videos with high quality H264 / AAC encoding.</string>
+            <string>The Unarchiver is the only app you need to open RAR on Mac. It's times more powerful than the native macOS utility and supports infinitely more archive formats.</string>
         </dict>
         <key>MinimumVersion</key>
-        <string>0.2.0</string>
+        <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.nstrauss.pkg.OBS</string>
+        <string>com.github.autopkg.pkg.TheUnarchiver</string>
         <key>Process</key>
         <array>
             <dict>
