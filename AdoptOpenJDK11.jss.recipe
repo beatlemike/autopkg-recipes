@@ -26,7 +26,7 @@
         <key>MinimumVersion</key>
         <string>0.2.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.grahampugh.recipes.pkg.AdoptOpenJDK11</string>
+        <string>com.github.grahampugh.recipes.download.AdoptOpenJDK11_Signed</string>
         <key>Process</key>
         <array>
             <dict>
