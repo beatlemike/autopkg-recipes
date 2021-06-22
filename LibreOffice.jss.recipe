@@ -10,6 +10,10 @@
         <dict>
             <key>NAME</key>
             <string>LibreOffice</string>
+            <key>LANGUAGE_CODE</key>
+            <string>en-us</string>
+            <key>RELEASE</key>
+            <string>fresh</string>
             <key>CATEGORY</key>
             <string>Productivity</string>
             <key>POLICY_CATEGORY</key>
@@ -26,7 +30,7 @@
         <key>MinimumVersion</key>
         <string>0.2.0</string>
         <key>ParentRecipe</key>
-        <string>io.github.hjuutilainen.pkg.LibreOffice</string>
+        <string>com.github.grahampugh.recipes.download.LibreOfficeLangPack</string>
         <key>Process</key>
         <array>
             <dict>
