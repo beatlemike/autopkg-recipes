@@ -56,7 +56,7 @@
                 <key>input_plist_path</key>
                 <string>%RECIPE_CACHE_DIR%/payload/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Info.plist</string>
                 <key>plist_version_key</key>
-                <string>CFBundleGetInfoString</string>
+                <string>JVMPlatformVersion</string>
             </dict>
         </dict>
          <dict>
