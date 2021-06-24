@@ -89,7 +89,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>filename</key>
-				<string>%RECIPE_CACHE_DIR%/downloads/payload/ESET Remote Administrator Agent.app</string>
+				<string>%RECIPE_CACHE_DIR%/downloads/payload/ESET Management Agent.app</string>
 				<key>recursive</key>
 				<string>-R</string>
 				<key>mode</key>
