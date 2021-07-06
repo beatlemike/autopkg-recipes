@@ -30,7 +30,7 @@
         <key>MinimumVersion</key>
         <string>0.2.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.grahampugh.recipes.download.LibreOfficeLangPack</string>
+        <string>io.github.hjuutilainen.download.LibreOffice</string>
         <key>Process</key>
         <array>
             <dict>
