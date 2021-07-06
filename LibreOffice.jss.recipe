@@ -30,7 +30,7 @@
         <key>MinimumVersion</key>
         <string>0.2.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.jpiel.pkg.Localized-LibreOffice</string>
+        <string>com.github.grahampugh.recipes.pkg.LibreOfficeLangPack</string>
         <key>Process</key>
         <array>
             <dict>
