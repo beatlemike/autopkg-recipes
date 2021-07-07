@@ -21,7 +21,7 @@
 			<key>Processor</key>
 			<string>AppPkgCreator</string>
 			<key>pkg_path</key>
-            <string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
+            <string>%RECIPE_CACHE_DIR%/DockerARM-%version%.pkg</string>
 		</dict>
 	</array>
 </dict>
