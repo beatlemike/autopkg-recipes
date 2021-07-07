@@ -11,7 +11,7 @@
             <key>NAME</key>
             <string>Docker for Intel</string>
             <key>CATEGORY</key>
-            <string>File Transfer</string>
+            <string>Developer Tools</string>
             <key>POLICY_CATEGORY</key>
             <string>Developer Tools</string>
             <key>POLICY_TRIGGER</key>
