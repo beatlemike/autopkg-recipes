@@ -13,7 +13,7 @@
             <key>CATEGORY</key>
             <string>File Transfer</string>
             <key>POLICY_CATEGORY</key>
-            <string>File Transfer</string>
+            <string>Developer Tools</string>
             <key>POLICY_TRIGGER</key>
             <string>docker</string>
             <key>POLICY_TEMPLATE</key>
