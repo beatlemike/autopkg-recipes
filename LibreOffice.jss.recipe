@@ -8,10 +8,14 @@
         <string>com.github.beatlemike.jss.LibreOffice</string>
         <key>Input</key>
         <dict>
-            <key>NAME</key>
-            <string>LibreOffice</string>
             <key>LANGUAGE_CODE</key>
-			<string>en-US</string>
+			<string>fr</string>
+			<key>NAME</key>
+			<string>LibreOffice</string>
+			<key>RELEASE</key>
+			<string>still</string>
+			<key>TYPE</key>
+			<string>mac-x86_64</string>
             <key>CATEGORY</key>
             <string>Productivity</string>
             <key>POLICY_CATEGORY</key>
