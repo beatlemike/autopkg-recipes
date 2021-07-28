@@ -8,14 +8,10 @@
         <string>com.github.beatlemike.jss.LibreOffice</string>
         <key>Input</key>
         <dict>
-            <key>LANGUAGE_CODE</key>
-			<string>en-US</string>
 			<key>NAME</key>
 			<string>LibreOffice</string>
 			<key>RELEASE</key>
 			<string>fresh</string>
-			<key>TYPE</key>
-			<string>mac-x86_64</string>
             <key>CATEGORY</key>
             <string>Productivity</string>
             <key>POLICY_CATEGORY</key>
@@ -32,7 +28,7 @@
         <key>MinimumVersion</key>
         <string>0.2.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.grahampugh.recipes.pkg.LibreOfficeLangPack</string>
+        <string>io.github.hjuutilainen.download.LibreOffice</string>
         <key>Process</key>
         <array>
             <dict>
