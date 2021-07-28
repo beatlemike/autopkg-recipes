@@ -11,9 +11,9 @@
             <key>NAME</key>
             <string>LibreOffice</string>
             <key>LANGUAGE_CODE</key>
-            <string>en-us</string>
-            <key>RELEASE</key>
-            <string>fresh</string>
+			<string>en-US</string>
+			<key>RELEASE</key>
+			<string>fresh</string>
             <key>CATEGORY</key>
             <string>Productivity</string>
             <key>POLICY_CATEGORY</key>
