@@ -28,7 +28,7 @@
         <key>MinimumVersion</key>
         <string>0.2.0</string>
         <key>ParentRecipe</key>
-        <string>io.github.hjuutilainen.download.LibreOffice</string>
+        <string>io.github.hjuutilainen.pkg.LibreOffice</string>
         <key>Process</key>
         <array>
             <dict>
