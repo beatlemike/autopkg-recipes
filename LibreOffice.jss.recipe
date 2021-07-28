@@ -12,8 +12,6 @@
             <string>LibreOffice</string>
             <key>LANGUAGE_CODE</key>
 			<string>en-US</string>
-			<key>RELEASE</key>
-			<string>fresh</string>
             <key>CATEGORY</key>
             <string>Productivity</string>
             <key>POLICY_CATEGORY</key>
