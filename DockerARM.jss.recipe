@@ -15,7 +15,7 @@
         <key>POLICY_CATEGORY</key>
         <string>Developer Tools</string>
         <key>POLICY_TRIGGER</key>
-        <string>dockerarm</string>
+        <string>docker</string>
         <key>POLICY_TEMPLATE</key>
         <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
         <key>ICON</key>
