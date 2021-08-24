@@ -5,7 +5,7 @@
       <key>Description</key>
       <string>Downloads the latest version of the Elgato Stream Deck installer package and renames the package.</string>
       <key>Identifier</key>
-      <string>com.github.rtrouton.pkg.StreamDeck</string>
+      <string>com.github.beatlemike.pkg.StreamDeck</string>
       <key>Input</key>
       <dict>
          <key>NAME</key>
