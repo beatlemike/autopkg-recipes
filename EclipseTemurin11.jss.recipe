@@ -28,7 +28,7 @@
         <key>MinimumVersion</key>
         <string>0.2.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.grahampugh.recipes.pkg.EclipseTemurin-11-installer.yaml</string>
+        <string>com.github.grahampugh.recipes.pkg.EclipseTemurin-11-installer</string>
         <key>Process</key>
         <array>
             <dict>
