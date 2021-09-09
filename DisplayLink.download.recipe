@@ -1,35 +1,47 @@
-Description: Downloads the latest version of the DisplayLink Manager App.
-Identifier: com.github.beatlemike.download.DisplayLink
-MinimumVersion: '2.3'
-
-Input:
-  NAME: DisplayLink Manager
-  SOFTWARE_TITLE: DisplayLink_Manager
-  BASE_URL: https://www.synaptics.com
-  SEARCH_URL: products/displaylink-graphics/downloads/macos
-
-Process:
-- Processor: URLTextSearcher
-  Arguments:
-    re_pattern: DisplayLink Manager Graphics Connectivity(?! BETA).*\s.*\s.*\s.*\s.*\s.*\s.*\s.*\s.*\s.*\s.*\s.*a href=\"(?P<match>\/node\/\d{4}\?filetype=exe)\" class=\"download-link\">Download<\/a>
-    url: '%BASE_URL%/%SEARCH_URL%'
-
-- Processor: URLTextSearcher
-  Arguments:
-    re_pattern: <a.*href="(?P<download_url>.*[.]pkg)" download>Accept<\/a>
-    url: '%BASE_URL%%match%'
-
-- Processor: URLDownloader
-  Arguments:
-    filename: '%SOFTWARE_TITLE%.pkg'
-    url: '%BASE_URL%%download_url%'
-
-- Processor: EndOfCheckPhase
-
-- Processor: CodeSignatureVerifier
-  Arguments:
-    expected_authority_names:
-    - 'Developer ID Installer: DisplayLink Corp (73YQY62QM3)'
-    - Developer ID Certification Authority
-    - Apple Root CA
-    input_path: '%pathname%'
+<Description>Downloads the latest version of the DisplayLink Manager App.</Description>
+<Identifier>com.github.beatlemike.download.DisplayLink</Identifier>
+<MinimumVersion>2.3</MinimumVersion>
+<Input>
+  <NAME>DisplayLink Manager</NAME>
+  <SOFTWARE_TITLE>DisplayLink_Manager</SOFTWARE_TITLE>
+  <BASE_URL>https://www.synaptics.com</BASE_URL>
+  <SEARCH_URL>products/displaylink-graphics/downloads/macos</SEARCH_URL>
+</Input>
+<Process>
+  <Processor>URLTextSearcher</Processor>
+  <Arguments>
+    <re_pattern>DisplayLink Manager Graphics Connectivity(?! BETA).*\s.*\s.*\s.*\s.*\s.*\s.*\s.*\s.*\s.*\s.*\s.*a href=\"(?P
+      <match>\/node\/\d{4}\?filetype=exe)\" class=\"download-link\">Download<\/a>
+      </re_pattern>
+      <url>%BASE_URL%/%SEARCH_URL%</url>
+    </Arguments>
+  </Process>
+  <Process>
+    <Processor>URLTextSearcher</Processor>
+    <Arguments>
+      <re_pattern>
+        <a.*href="(?P
+          <download_url>.*[.]pkg)" download>Accept<\/a>
+          </re_pattern>
+          <url>%BASE_URL%%match%</url>
+        </Arguments>
+      </Process>
+      <Process>
+        <Processor>URLDownloader</Processor>
+        <Arguments>
+          <filename>%SOFTWARE_TITLE%.pkg</filename>
+          <url>%BASE_URL%%download_url%</url>
+        </Arguments>
+      </Process>
+      <Process>
+        <Processor>EndOfCheckPhase</Processor>
+      </Process>
+      <Process>
+        <Processor>CodeSignatureVerifier</Processor>
+        <Arguments>
+          <expected_authority_names>Developer ID Installer: DisplayLink Corp (73YQY62QM3)</expected_authority_names>
+          <expected_authority_names>Developer ID Certification Authority</expected_authority_names>
+          <expected_authority_names>Apple Root CA</expected_authority_names>
+          <input_path>%pathname%</input_path>
+        </Arguments>
+      </Process>
