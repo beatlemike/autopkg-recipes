@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of the DisplayLink Manager App.</string>
 	<key>Identifier</key>
-	<string>com.github.smithjw.download.DisplayLink_Manager</string>
+	<string>com.github.beatlemike.download.DisplayLink</string>
 	<key>Input</key>
 	<dict>
 		<key>BASE_URL</key>
