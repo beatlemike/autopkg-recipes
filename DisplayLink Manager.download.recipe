@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the latest version of the DisplayLink Manager App.</string>
+	<key>Identifier</key>
+	<string>com.github.smithjw.download.DisplayLink_Manager</string>
+	<key>Input</key>
+	<dict>
+		<key>BASE_URL</key>
+		<string>https://www.synaptics.com</string>
+		<key>NAME</key>
+		<string>DisplayLink Manager</string>
+		<key>SEARCH_URL</key>
+		<string>products/displaylink-graphics/downloads/macos</string>
+		<key>SOFTWARE_TITLE</key>
+		<string>DisplayLink_Manager</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>2.3</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>re_pattern</key>
+				<string>DisplayLink Manager Graphics Connectivity(?! BETA).*\s.*\s.*\s.*\s.*\s.*\s.*\s.*\s.*\s.*\s.*\s.*a href=\"(?P&lt;match&gt;\/node\/\d{4}\?filetype=exe)\" class=\"download-link\"&gt;Download&lt;\/a&gt;</string>
+				<key>url</key>
+				<string>%BASE_URL%/%SEARCH_URL%</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLTextSearcher</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>re_pattern</key>
+				<string>&lt;a.*href="(?P&lt;download_url&gt;.*[.]pkg)" download&gt;Accept&lt;\/a&gt;</string>
+				<key>url</key>
+				<string>%BASE_URL%%match%</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLTextSearcher</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>filename</key>
+				<string>%SOFTWARE_TITLE%.pkg</string>
+				<key>url</key>
+				<string>%BASE_URL%%download_url%</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLDownloader</string>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>expected_authority_names</key>
+				<array>
+					<string>Developer ID Installer: DisplayLink Corp (73YQY62QM3)</string>
+					<string>Developer ID Certification Authority</string>
+					<string>Apple Root CA</string>
+				</array>
+				<key>input_path</key>
+				<string>%pathname%</string>
+			</dict>
+			<key>Processor</key>
+			<string>CodeSignatureVerifier</string>
+		</dict>
+	</array>
+</dict>
+</plist>
