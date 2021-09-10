@@ -9,7 +9,7 @@
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>https://www.hs-augsburg.de/~beckmanf/pspp/pspp-1.2.0-2.dmg</string>
+		<string>https://www.hs-augsburg.de/~beckmanf/pspp/pspp-1.4.0-2.dmg</string>
 		<key>NAME</key>
 		<string>pspp</string>
 	</dict>
