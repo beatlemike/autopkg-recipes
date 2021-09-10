@@ -5,7 +5,7 @@
         <key>Description</key>
         <string>Downloads the current release version of PSPP and uploads it to the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.PSPP</string>
+        <string>com.github.beatlemike.jss.pspp</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
