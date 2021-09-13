@@ -8,6 +8,15 @@
 	<string>Downloads the latest version of pspp and creates a package.</string>
 	<key>Identifier</key>
 	<string>com.github.beatlemike.pkg.pspp</string>
+	<key>Input</key>
+	<dict>
+	<key>NAME</key>
+	<string>pspp</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.beatlemike.download.pspp</string>
 	<key>Process</key>
 	<array>
 		<dict>
