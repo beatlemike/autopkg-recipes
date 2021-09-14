@@ -10,8 +10,6 @@
         <dict>
             <key>NAME</key>
             <string>Mathematica</string>
-            <key>FILE_SHARE</key>
-            <string>/Users/tsc/Desktop/OfflineDownloadRepo</string>
             <key>CATEGORY</key>
             <string>STEM</string>
             <key>POLICY_CATEGORY</key>
@@ -28,7 +26,7 @@
         <key>MinimumVersion</key>
         <string>1.0.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.mlbz521.pkg.Mathematica</string>
+        <string>com.github.beatlemike.pkg.Mathematica</string>
         <key>Process</key>
         <array>
             <dict>
