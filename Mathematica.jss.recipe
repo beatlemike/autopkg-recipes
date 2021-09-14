@@ -10,6 +10,8 @@
         <dict>
             <key>NAME</key>
             <string>Mathematica</string>
+            <key>FILE_SHARE</key>
+            <string>/Users/tsc/Desktop/OfflineDownloadRepo</string>
             <key>CATEGORY</key>
             <string>STEM</string>
             <key>POLICY_CATEGORY</key>
