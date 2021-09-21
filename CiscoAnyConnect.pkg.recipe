@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Creates a Cisco AnyConnect VPN-only package.</string>
 	<key>Identifier</key>
-	<string>com.github.grahampugh.recipes.pkg.CiscoAnyConnect</string>
+	<string>com.github.beatlemike.pkg.CiscoAnyConnect</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
