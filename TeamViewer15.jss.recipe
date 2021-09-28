@@ -3,30 +3,30 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads the current release version of GoogleBackupandSync and uploads it to the JSS.</string>
+        <string>Downloads the current release version of TeamViewer and uploads it to the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.GoogleBackupandSync</string>
+        <string>com.github.beatlemike.jss.TeamViewer15</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Google Backup and Sync</string>
+            <string>TeamViewer</string>
             <key>CATEGORY</key>
-            <string>Cloud Services</string>
+            <string>Remote Access</string>
             <key>POLICY_CATEGORY</key>
-            <string>Cloud Services</string>
+            <string>Remote Access</string>
             <key>POLICY_TRIGGER</key>
-            <string>backupandsync</string>
+            <string>teamviewer</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
             <key>ICON</key>
-            <string>%RECIPE_DIR%/GoogleBackupandSync.png</string>
+            <string>%RECIPE_DIR%/TeamViewer.png</string>
             <key>DESCRIPTION</key>
-            <string>Backup and Sync syncs and stores Drive content locally on your computer. </string>
+            <string>Establish incoming and outgoing remote desktop and computer-to-computer connections for real-time support or access to files, networks and programs. Collaborate online, participate in meetings, chat with other people or groups, and make video calls in one click. After downloading and installing this software, you'll have your first session up and running within seconds.</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.2.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.nstrauss.pkg.BackupandSync</string>
+        <string>com.justinrummel.pkg.TeamViewer</string>
         <key>Process</key>
         <array>
             <dict>
