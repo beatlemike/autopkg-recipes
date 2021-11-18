@@ -3,15 +3,15 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads the current release version of Eclipse Temurin 11 and uploads it to the JSS.</string>
+        <string>Downloads the current release version of Eclipse Temurin 8 and uploads it to the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.EclipseTemurin11</string>
+        <string>com.github.beatlemike.jss.EclipseTemurin8</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Eclipse Temurin 11</string>
+            <string>Eclipse Temurin 8</string>
             <key>FEATURE_VERSION</key>
-            <string>11</string>
+            <string>8</string>
             <key>CATEGORY</key>
             <string>Additional Installs</string>
             <key>POLICY_CATEGORY</key>
@@ -28,7 +28,7 @@
         <key>MinimumVersion</key>
         <string>0.2.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.grahampugh.recipes.pkg.EclipseTemurin-11-installer</string>
+        <string>com.github.beatlemike.pkg.EclipseTemurin8</string>
         <key>Process</key>
         <array>
             <dict>
