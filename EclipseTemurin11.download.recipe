@@ -25,7 +25,7 @@ VENDOR may be 'adoptopenjdk', 'openjdk', 'adoptium', 'alibaba', 'ibm'.
 Note that not all options are available for all vendors, and not all listed vendors may be currently available.
 </string>
 	<key>Identifier</key>
-	<string>com.github.grahampugh.recipes.download.EclipseTemurin-11-installer</string>
+	<string>com.github.beatlemike.download.EclipseTemurin11</string>
 	<key>Input</key>
 	<dict>
 		<key>ARCH</key>
