@@ -11,7 +11,7 @@
             <key>NAME</key>
             <string>Maple</string>
 			<key>FILE_SHARE</key>
-			<string>/Users/tsc/Desktop/OfflineDownloadRepo</string>
+			<string>/private/var/tsc/Desktop/OfflineDownloadRepo</string>
             <key>CATEGORY</key>
             <string>STEM</string>
             <key>POLICY_CATEGORY</key>

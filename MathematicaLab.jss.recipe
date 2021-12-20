@@ -11,7 +11,7 @@
             <key>NAME</key>
             <string>Mathematica Lab</string>
 			<key>FILE_SHARE</key>
-			<string>/Users/tsc/Desktop/OfflineDownloadRepo/LabVersions</string>
+			<string>/private/var/tsc/Desktop/OfflineDownloadRepo/LabVersions</string>
             <key>CATEGORY</key>
             <string>STEM</string>
             <key>POLICY_CATEGORY</key>
