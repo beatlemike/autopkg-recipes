@@ -26,7 +26,7 @@
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.beatlemike.pkg.LogitechCameraSettings</string>
+        <string>com.github.neilmartin83-recipes.download.Logitech Camera Settings</string>
         <key>Process</key>
         <array>
             <dict>
