@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of mmhmm and imports it into your JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.beatlemike.jss.mmhmm</string>
+	<string>com.github.beatlemike.jss.mmhmmapp</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -28,7 +28,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.beatlemike.pkg.mmhmm</string>
+	<string>com.github.beatlemike.pkg.mmhmmapp</string>
 	<key>Process</key>
 	<array>
 		<dict>

@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of mmhmm.</string>
 	<key>Identifier</key>
-	<string>com.github.beatlemike.download.mmhmm</string>
+	<string>com.github.beatlemike.download.mmhmmapp</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
