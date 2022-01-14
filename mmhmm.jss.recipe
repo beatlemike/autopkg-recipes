@@ -10,23 +10,21 @@
 	<string>com.github.beatlemike.jss.mmhmm</string>
 	<key>Input</key>
 	<dict>
-		<key>CATEGORY</key>
-		<string>Productivity</string>
-		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
-		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
 		<string>mmhmm</string>
-		<key>POLICY_CATEGORY</key>
-		<string>Testing</string>
-		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate.xml</string>
-		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string></string>
-		<key>SELF_SERVICE_ICON</key>
-		<string>%NAME%.png</string>
-	</dict>
+            <key>CATEGORY</key>
+            <string>Media</string>
+            <key>POLICY_CATEGORY</key>
+            <string>Media</string>
+            <key>POLICY_TRIGGER</key>
+            <string>mmhmm</string>
+            <key>POLICY_TEMPLATE</key>
+            <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+            <key>ICON</key>
+            <string>%RECIPE_DIR%/mmhmm.png</string>
+            <key>DESCRIPTION</key>
+            <string>Present like a pro, or be present when you’re in the audience. With mmhmm, everyone on your team can make meetings better.</string>
+       </dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
