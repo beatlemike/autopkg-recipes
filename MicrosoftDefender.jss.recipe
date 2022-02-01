@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of the Microsoft Defender ATP installer package and renames the package and imports it into your JSS.</string>
+	<string>Downloads the latest version of the Microsoft Defender installer package and renames the package and imports it into your JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.beatlemike.jss.microsoftdefenderatp</string>
+	<string>com.github.beatlemike.jss.microsoftdefender</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Microsoft Defender ATP</string>
+		<string>Microsoft Defender</string>
 		<key>CATEGORY</key>
 		<string>Security</string>
 		<key>POLICY_CATEGORY</key>
@@ -19,14 +19,14 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
 		<key>ICON</key>
-		<string>%RECIPE_DIR%/MicrosoftDefenderATP.png</string>
+		<string>%RECIPE_DIR%/MicrosoftDefender.png</string>
 		<key>DESCRIPTION</key>
 		<string>Microsoft Defender for Endpoint delivers preventative protection, post-breach detection, automated investigation, and response.</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.rtrouton.pkg.microsoftdefenderatp</string>
+	<string>com.github.rtrouton.pkg.microsoftdefender</string>
 	<key>Process</key>
 	<array>
 		<dict>
