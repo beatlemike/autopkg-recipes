@@ -37,13 +37,13 @@ No idea if all Firefox builds are available in all the same localizations, so yo
 	<key>Process</key>
 	<array>
 		<dict>
+			<key>Processor</key>
+			<string>com.github.grahampugh.jamf-upload.processors/JamfCategoryUploader</string>
 			<key>Arguments</key>
 			<dict>
 				<key>category_name</key>
 				<string>%CATEGORY%</string>
 			</dict>
-			<key>Processor</key>
-			<string>com.github.grahampugh.jamf-upload.processors/JamfCategoryUploader</string>
 		</dict>
 		<dict>
 			<key>Processor</key>
