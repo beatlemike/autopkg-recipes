@@ -8,6 +8,8 @@
 	<string>com.github.beatlemike.jamf.googlechrome</string>
 	<key>Input</key>
 	<dict>
+        <key>NAME</key>
+        <string>Google Chrome Test</string>
 		<key>CATEGORY</key>
 		<string>Browsers</string>
 	</dict>
