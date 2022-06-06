@@ -26,7 +26,7 @@
         <key>MinimumVersion</key>
         <string>0.6.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.rtrouton.pkg.microsoftuniversalonedrive</string>
+        <string>com.github.beatlemike.pkg.microsoftonedrive</string>
         <key>Process</key>
         <array>
             <dict>
