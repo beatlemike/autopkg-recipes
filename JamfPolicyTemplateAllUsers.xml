@@ -11,11 +11,10 @@
     </general>
     <!-- Scope -->
     <scope>
-		<all_computers>true</all_computers>
-		<limit_to_users>
-			<user_groups/>
-		</limit_to_users>
-	</scope>
+        <all_computers>false</all_computers>
+        <computer_groups/>
+        <exclusions/>
+    </scope>
     <!-- Packages -->
     <package_configuration>
         <packages>
