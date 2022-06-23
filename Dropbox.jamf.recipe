@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Dropbox Test</string>
+		<string>Dropbox</string>
         <key>CATEGORY</key>
         <string>Cloud Services</string>
 		<key>POLICY_CATEGORY</key>

@@ -11,7 +11,7 @@
     </general>
     <!-- Scope -->
     <scope>
-        <all_computers>false</all_computers>
+        <all_computers>true</all_computers>
         <computer_groups/>
         <exclusions/>
     </scope>
