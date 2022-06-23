@@ -9,6 +9,13 @@
             <name>%POLICY_CATEGORY%</name>
         </category>
     </general>
+    <!-- Scope -->
+    <scope>
+		<all_computers>true</all_computers>
+		<limit_to_users>
+			<user_groups/>
+		</limit_to_users>
+	</scope>
     <!-- Packages -->
     <package_configuration>
         <packages>

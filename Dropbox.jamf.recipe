@@ -9,7 +9,7 @@
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Dropbox Test</string>
+		<string>Dropbox</string>
         <key>CATEGORY</key>
         <string>Cloud Services</string>
 		<key>POLICY_CATEGORY</key>
@@ -17,7 +17,7 @@
 		<key>POLICY_NAME</key>
 		<string>Install - %NAME%</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>JamfPolicyTemplateNoRecon.xml</string>
+		<string>JamfPolicyTemplateAllUsers.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Dropbox is a modern workspace designed to reduce busywork-so you can focus on the things that matter. Sign in and put your creative energy to work.</string>
 		<key>SELF_SERVICE_ICON</key>
