@@ -2,14 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Comment</key>
-	<string>Recipe automatically generated from com.github.rtrouton.jss.dropbox by JamfRecipeMaker</string>
 	<key>Identifier</key>
 	<string>com.github.beatlemike.jamf.Dropbox</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Dropbox</string>
+		<string>Dropbox Test</string>
         <key>CATEGORY</key>
         <string>Cloud Services</string>
 		<key>POLICY_CATEGORY</key>
