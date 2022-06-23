@@ -22,6 +22,8 @@
 		<string>Dropbox is a modern workspace designed to reduce busywork-so you can focus on the things that matter. Sign in and put your creative energy to work.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Dropbox.png</string>
+        <key>POLICY_TRIGGER</key>
+        <string>dropbox</string>
 		<key>UPDATE_PREDICATE</key>
 		<string>pkg_uploaded == False</string>
 	</dict>
