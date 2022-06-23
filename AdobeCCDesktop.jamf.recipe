@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.github.beatlemike.jamf.AdobeCCDesktop</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+        <string>Adobe CC Desktop - No License</string>
+        <key>CATEGORY</key>
+        <string>Adobe</string>
+		<key>UPDATE_PREDICATE</key>
+		<string>pkg_uploaded == False</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>2.3</string>
+	<key>ParentRecipe</key>
+	<string>com.github.rtrouton.pkg.AdobeCreativeCloudInstallerUniversal</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>pkg_category</key>
+				<string>%CATEGORY%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>predicate</key>
+				<string>%UPDATE_PREDICATE%</string>
+			</dict>
+			<key>Processor</key>
+			<string>StopProcessingIf</string>
+		</dict>
+	</array>
+</dict>
+</plist>
