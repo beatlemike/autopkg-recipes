@@ -23,7 +23,7 @@
         <key>POLICY_TRIGGER</key>
         <string>acrobat</string>
 		<key>UPDATE_PREDICATE</key>
-		<string>FALSEPREDICATE</string>
+		<string>pkg_uploaded == False</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
