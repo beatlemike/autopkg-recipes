@@ -19,49 +19,49 @@
         <key>SELF_SERVICE_DESCRIPTION</key>
         <string>Discord is the easiest way to talk over voice, video, and text. Talk, chat, hang out, and stay close with your friends and communities.</string>
         <key>SELF_SERVICE_ICON</key>
-        <string>Discord.png</string></dict>
+        <string>Discord.png</string>    
         <key>POLICY_TRIGGER</key>
         <string>discord</string>
 		<key>UPDATE_PREDICATE</key>
 		<string>pkg_uploaded == False</string>
-	</dict>
+     </dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
 	<string>com.github.beatlemike.pkg.Discord</string>
-    <key>Process</key>
-	<array>
-		<dict>
-			<key>Arguments</key>
+        <key>Process</key>
+		<array>
 			<dict>
-				<key>pkg_category</key>
-				<string>%CATEGORY%</string>
+				<key>Arguments</key>
+				<dict>
+					<key>pkg_category</key>
+					<string>%CATEGORY%</string>
+				</dict>
+				<key>Processor</key>
+				<string>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</string>
 			</dict>
-			<key>Processor</key>
-			<string>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
 			<dict>
-				<key>predicate</key>
-				<string>%UPDATE_PREDICATE%</string>
+				<key>Arguments</key>
+				<dict>
+					<key>predicate</key>
+					<string>%UPDATE_PREDICATE%</string>
+				</dict>
+				<key>Processor</key>
+				<string>StopProcessingIf</string>
 			</dict>
-			<key>Processor</key>
-			<string>StopProcessingIf</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
 			<dict>
-				<key>icon</key>
-				<string>%SELF_SERVICE_ICON%</string>
-				<key>policy_name</key>
-				<string>%POLICY_NAME%</string>
-				<key>policy_template</key>
-				<string>%POLICY_TEMPLATE%</string>
+				<key>Arguments</key>
+				<dict>
+					<key>icon</key>
+					<string>%SELF_SERVICE_ICON%</string>
+					<key>policy_name</key>
+					<string>%POLICY_NAME%</string>
+					<key>policy_template</key>
+					<string>%POLICY_TEMPLATE%</string>
+				</dict>
+				<key>Processor</key>
+				<string>com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader</string>
 			</dict>
-			<key>Processor</key>
-			<string>com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader</string>
-		</dict>
-	</array>
+		</array>
 	</dict>
 </plist>
