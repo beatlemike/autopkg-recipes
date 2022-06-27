@@ -24,7 +24,7 @@
             <string>bluejeans</string>
 			<key>UPDATE_PREDICATE</key>
 			<string>pkg_uploaded == False</string>
-            </dict>
+        </dict>
 		<key>MinimumVersion</key>
 		<string>2.3</string>
 		<key>ParentRecipe</key>
