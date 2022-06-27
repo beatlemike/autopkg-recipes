@@ -12,11 +12,6 @@
     <!-- Scope -->
     <scope>
         <all_computers>false</all_computers>
-        <limit_to_users>
-      		<user_groups>
-      			<name>Techs</name>
-      		</user_groups>
-    	</limit_to_users>
         <exclusions/>
     </scope>
     <!-- Packages -->

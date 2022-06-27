@@ -5,7 +5,7 @@
         <key>Description</key>
         <string>Downloads the current version of AppCleaner and uploads it to the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.AppCleaner</string>
+        <string>com.github.beatlemike.jamf.AppCleaner</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
@@ -17,7 +17,7 @@
 			<key>POLICY_NAME</key>
 			<string>Install - %NAME%</string>
 			<key>POLICY_TEMPLATE</key>
-			<string>JamfPolicyTemplateUserGroup.xml</string>
+			<string>JamfPolicyTemplateNoScope.xml</string>
             <key>SELF_SERVICE_DESCRIPTION</key>
             <string>AppCleaner is a small application which allows you to thoroughly uninstall unwanted apps.</string>
             <key>SELF_SERVICE_ICON</key>
