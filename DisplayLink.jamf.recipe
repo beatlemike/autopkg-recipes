@@ -30,10 +30,6 @@
 		<key>MinimumVersion</key>
 		<string>2.3</string>
 		<key>ParentRecipe</key>
-        </dict>
-        <key>MinimumVersion</key>
-        <string>2.0.0</string>
-        <key>ParentRecipe</key>
         <string>com.github.beatlemike.pkg.DisplayLink</string>
         <key>Process</key>
 		<array>
