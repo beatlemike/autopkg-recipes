@@ -10,8 +10,6 @@
         <string>ESET Endpoint Antivirus</string>
         <key>CATEGORY</key>
         <string>Security</string>
-		<key>UPDATE_PREDICATE</key>
-		<string>pkg_uploaded == False</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
@@ -27,15 +25,6 @@
 			</dict>
 			<key>Processor</key>
 			<string>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>predicate</key>
-				<string>%UPDATE_PREDICATE%</string>
-			</dict>
-			<key>Processor</key>
-			<string>StopProcessingIf</string>
 		</dict>
 	</array>
 </dict>
