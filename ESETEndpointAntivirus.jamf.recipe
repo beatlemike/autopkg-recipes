@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-    <string>com.github.beatlemike.jamf.ESETEndpointAntivirus</string>
+	<string>com.github.beatlemike.jamf.ESETEndpointAntivirus</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -16,7 +16,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-    <string>com.github.jbaker10.pkg.ESETEndpointAntiVirus</string>
+	<string>com.github.jbaker10.pkg.ESETEndpointAntiVirus</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -40,4 +40,3 @@
 	</array>
 </dict>
 </plist>
-
