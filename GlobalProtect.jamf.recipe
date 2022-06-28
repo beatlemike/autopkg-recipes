@@ -21,7 +21,7 @@
             <key>SELF_SERVICE_ICON</key>
             <string>GlobalProtect.png</string>
             <key>POLICY_TRIGGER</key>
-            <string>globalprotect</string
+            <string>globalprotect</string>
 			<key>UPDATE_PREDICATE</key>
 			<string>pkg_uploaded == False</string>
 		</dict>
