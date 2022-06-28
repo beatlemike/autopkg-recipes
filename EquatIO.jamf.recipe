@@ -19,7 +19,7 @@
             <key>SELF_SERVICE_DESCRIPTION</key>
             <string>EquatIO is a math application that allows you to insert, edit, and interact with digital math in Microsoft Word.</string>
             <key>SELF_SERVICE_ICON</key>
-            <string>%RECIPE_DIR%/EquatIO.png</string>
+            <string>EquatIO.png</string>
             <key>POLICY_TRIGGER</key>
             <string>equatio</string>
             <key>UPDATE_PREDICATE</key>
