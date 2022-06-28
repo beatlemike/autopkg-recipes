@@ -9,7 +9,7 @@
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>https://fastdownloads2.texthelp.com/equatio_desktop/installers/1.6.0/mac/EquatIO.pkg</string>
+		<string>https://fastdownloads2.texthelp.com/equatio_desktop/installers/1.8.3/mac/EquatIO.pkg</string>
 		<key>NAME</key>
 		<string>EquatIO</string>
 	</dict>
@@ -21,7 +21,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>filename</key>
-				<string>%NAME%.pkg</string>
+				<string>%NAME%-1.8.3.pkg</string>
 				<key>url</key>
 				<string>%DOWNLOAD_URL%</string>
 			</dict>
