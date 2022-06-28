@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Identifier</key>
+        <string>com.github.beatlemike.jss.FirefoxESR</string>
+        <key>Input</key>
+        <dict>
+            <key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+			<false/>
+			<key>DOWNLOAD_URL</key>
+			<string>https://download.mozilla.org/?product=firefox-%RELEASE%-ssl&amp;os=osx&amp;lang=en-US</string>
+			<key>NAME</key>
+            <string>Mozilla FirefoxESR</string>
+			<key>RELEASE</key>
+			<string>esr-latest</string>
+            <key>CATEGORY</key>
+            <string>Browsers</string>
+            <key>POLICY_CATEGORY</key>
+            <string>Browsers</string>
+			<key>POLICY_NAME</key>
+			<string>Install - %NAME%</string>
+			<key>POLICY_TEMPLATE</key>
+			<string>JamfPolicyTemplateAllUsers.xml</string>
+            <key>SELF_SERVICE_DESCRIPTION</key>
+            <string>Mozilla Firefox ESR is intended for groups who deploy and maintain the desktop environment in large organizations such as schools, governments and businesses.</string>
+			<key>SELF_SERVICE_ICON</key>
+            <string>Firefox.png</string>
+            <key>POLICY_TRIGGER</key>
+            <string>firefoxesr</string>
+			<key>UPDATE_PREDICATE</key>
+			<string>pkg_uploaded == False</string>
+		</dict>
+		<key>MinimumVersion</key>
+		<string>2.3</string>
+		<key>ParentRecipe</key>
+        <string>com.github.autopkg.pkg.Firefox_EN</string>
+        <key>Process</key>
+		<array>
+			<dict>
+				<key>Arguments</key>
+				<dict>
+					<key>pkg_category</key>
+					<string>%CATEGORY%</string>
+				</dict>
+				<key>Processor</key>
+				<string>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<dict>
+					<key>predicate</key>
+					<string>%UPDATE_PREDICATE%</string>
+				</dict>
+				<key>Processor</key>
+				<string>StopProcessingIf</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<dict>
+					<key>icon</key>
+					<string>%SELF_SERVICE_ICON%</string>
+					<key>policy_name</key>
+					<string>%POLICY_NAME%</string>
+					<key>policy_template</key>
+					<string>%POLICY_TEMPLATE%</string>
+					<key>replace_policy</key>
+					<string>True</string>
+				</dict>
+				<key>Processor</key>
+				<string>com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader</string>
+			</dict>
+		</array>
+	</dict>
+</plist>
