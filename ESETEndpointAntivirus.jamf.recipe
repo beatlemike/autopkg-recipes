@@ -2,11 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>Identifier</key>
+	<key>Identifier</key>
     <string>com.github.beatlemike.jamf.ESETEndpointAntivirus</string>
-    <key>Input</key>
-    <dict>
-        <key>NAME</key>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
         <string>ESET Endpoint Antivirus</string>
         <key>CATEGORY</key>
         <string>Security</string>
@@ -40,3 +40,4 @@
 	</array>
 </dict>
 </plist>
+
