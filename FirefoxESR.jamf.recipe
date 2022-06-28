@@ -3,7 +3,7 @@
 <plist version="1.0">
     <dict>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.FirefoxESR</string>
+        <string>com.github.beatlemike.jamf.FirefoxESR</string>
         <key>Input</key>
         <dict>
             <key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
