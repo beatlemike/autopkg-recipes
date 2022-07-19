@@ -3,7 +3,7 @@
 <plist version="1.0">
     <dict>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.Mathematica</string>
+        <string>com.github.beatlemike.jamf.Mathematica</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
