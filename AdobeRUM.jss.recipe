@@ -18,6 +18,8 @@
             <string>Additional Installs</string>
             <key>POLICY_TRIGGER</key>
             <string>rum</string>
+            <key>POLICY_TEMPLATE</key>
+            <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/AdobeRUMSmartGroupTemplate.xml</string>
             <key>EXTENSION_ATTRIBUTE_TEMPLATE</key>
