@@ -12,12 +12,18 @@
             <string>Eclipse Temurin 17</string>
             <key>FEATURE_VERSION</key>
             <string>17</string>
+            <key>GROUP_NAME</key>
+		    <string>%NAME%-update-smart</string>
+            <key>GROUP_TEMPLATE</key>
+		    <string>%RECIPE_DIR%/EclipseTemurin17SmartGroupTemplate.xml</string>
+            <key>EXTENSION_ATTRIBUTE_TEMPLATE</key>
+		    <string>%RECIPE_DIR%/EclipseTemurin17ExtensionAttribute.xml</string>
             <key>CATEGORY</key>
             <string>Additional Installs</string>
             <key>POLICY_CATEGORY</key>
             <string>Additional Installs</string>
             <key>POLICY_TRIGGER</key>
-            <string>jdk</string>
+            <string>jdk17</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
             <key>ICON</key>
@@ -34,6 +40,24 @@
             <dict>
                 <key>Arguments</key>
                 <dict>
+				    <key>extension_attributes</key>
+				    <array>
+					    <dict>
+						    <key>ext_attribute_path</key>
+						    <string>%EXTENSION_ATTRIBUTE_TEMPLATE%</string>
+					    </dict>
+				    </array>
+				    <key>groups</key>
+				    <array>
+					    <dict>
+						    <key>name</key>
+						    <string>%GROUP_NAME%</string>
+						    <key>smart</key>
+						    <true/>
+						    <key>template_path</key>
+						    <string>%GROUP_TEMPLATE%</string>
+					    </dict>
+				    </array>
                     <key>prod_name</key>
                     <string>%NAME%</string>
                     <key>category</key>

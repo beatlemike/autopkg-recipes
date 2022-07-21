@@ -5,25 +5,27 @@
         <key>Description</key>
         <string>Downloads the current release version of Eclipse Temurin 11 and uploads it to the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.EclipseTemurin11</string>
+        <string>com.github.beatlemike.jss.EclipseTemurin11AppleSilicon</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Eclipse Temurin 11</string>
+            <string>Eclipse Temurin 11 - Apple Silicon</string>
+            <key>ARCH</key>
+            <string>arm</string>
             <key>FEATURE_VERSION</key>
             <string>11</string>
             <key>GROUP_NAME</key>
-		    <string>%NAME%-update-smart</string>
+            <string>%NAME%-update-smart-arm</string>
             <key>GROUP_TEMPLATE</key>
-		    <string>%RECIPE_DIR%/EclipseTemurin11SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/EclipseTemurin11SmartGroupTemplateAppleSilicon.xml</string>
             <key>EXTENSION_ATTRIBUTE_TEMPLATE</key>
-		    <string>%RECIPE_DIR%/EclipseTemurin11ExtensionAttribute.xml</string>
+            <string>%RECIPE_DIR%/EclipseTemurin11ExtensionAttribute.xml</string>
             <key>CATEGORY</key>
             <string>Additional Installs</string>
             <key>POLICY_CATEGORY</key>
             <string>Additional Installs</string>
             <key>POLICY_TRIGGER</key>
-            <string>jdk11</string>
+            <string>jdk11_applesilicon</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
             <key>ICON</key>
@@ -34,7 +36,7 @@
         <key>MinimumVersion</key>
         <string>0.2.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.beatlemike.pkg.EclipseTemurin11</string>
+        <string>com.github.beatlemike.pkg.EclipseTemurin17</string>
         <key>Process</key>
         <array>
             <dict>
