@@ -3,7 +3,7 @@
 <plist version="1.0">
     <dict>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jss.Spotify</string>
+        <string>com.github.beatlemike.jamf.Spotify</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
