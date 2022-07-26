@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Identifier</key>
+        <string>com.github.beatlemike.jamf.SuitcaseFusion21</string>
+        <key>Input</key>
+        <dict>
+            <key>NAME</key>
+            <string>Suitcase Fusion 21</string>
+            <key>CATEGORY</key>
+            <string>Design</string>
+            <key>POLICY_CATEGORY</key>
+            <string>Design</string>
+			<key>POLICY_NAME</key>
+			<string>Install - %NAME%</string>
+			<key>POLICY_TEMPLATE</key>
+			<string>JamfPolicyTemplateAllUsers.xml</string>
+            <key>SELF_SERVICE_DESCRIPTION</key>
+            <string>Manage all of your fonts from one source, no matter how many you have—including your system fonts, purchased fonts, fonts synced from Adobe Typekit, Google Fonts, and more. Turn them on and off as you need. Suitcase Fusion offers you the best way to organize, find, view, and use them within your existing workflow.</string>
+            <key>SELF_SERVICE_ICON</key>
+            <string>SuitcaseFusion21.png</string>
+            <key>POLICY_TRIGGER</key>
+            <string>suitcase21</string>
+            <key>UPDATE_PREDICATE</key>
+			<string>pkg_uploaded == False</string>
+		</dict>
+		<key>MinimumVersion</key>
+		<string>2.3</string>
+		<key>ParentRecipe</key>
+        <string>com.github.dataJAR-recipes.pkg.Suitcase Fusion 21</string>
+        <key>Process</key>
+		<array>
+			<dict>
+				<key>Arguments</key>
+				<dict>
+					<key>pkg_category</key>
+					<string>%CATEGORY%</string>
+				</dict>
+				<key>Processor</key>
+				<string>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<dict>
+					<key>predicate</key>
+					<string>%UPDATE_PREDICATE%</string>
+				</dict>
+				<key>Processor</key>
+				<string>StopProcessingIf</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<dict>
+					<key>icon</key>
+					<string>%SELF_SERVICE_ICON%</string>
+					<key>policy_name</key>
+					<string>%POLICY_NAME%</string>
+					<key>policy_template</key>
+					<string>%POLICY_TEMPLATE%</string>
+					<key>replace_policy</key>
+					<string>True</string>
+				</dict>
+				<key>Processor</key>
+				<string>com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader</string>
+			</dict>
+		</array>
+	</dict>
+</plist>
