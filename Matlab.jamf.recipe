@@ -30,7 +30,7 @@
 		<key>MinimumVersion</key>
 		<string>2.3</string>
 		<key>ParentRecipe</key>
-        <string>com.github.mlbz521.pkg.Matlab</string>
+        <string>com.github.mlbz521.pkg.Matlab-ISO</string>
         <key>Process</key>
 		<array>
 			<dict>
