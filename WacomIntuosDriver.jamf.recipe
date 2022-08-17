@@ -3,34 +3,34 @@
 <plist version="1.0">
     <dict>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jamf.Matlab</string>
+        <string>com.github.beatlemike.jamf.WacomIntuosDriver</string>
         <key>Input</key>
         <dict>
-            <key>NAME</key>
-            <string>MATLAB</string>
-			<key>FILE_SHARE</key>
-			<string>/private/var/tsc/Desktop/OfflineDownloadRepo</string>
+            <key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+			<true/>
+			<key>NAME</key>
+            <string>Wacom Intuos Driver</string>
             <key>CATEGORY</key>
-            <string>STEM</string>
+            <string>Design</string>
             <key>POLICY_CATEGORY</key>
-            <string>STEM</string>
+            <string>Design</string>
 			<key>POLICY_NAME</key>
 			<string>Install - %NAME%</string>
 			<key>POLICY_TEMPLATE</key>
 			<string>JamfPolicyTemplateAllUsers.xml</string>
             <key>SELF_SERVICE_DESCRIPTION</key>
-            <string>The MATLAB platform is optimized for solving engineering and scientific problems.  The matrix-based MATLAB language is the world’s most natural way to express computational mathematics.  Built-in graphics make it easy to visualize and gain insights from data. A vast library of prebuilt toolboxes lets you get started right away with algorithms essential to your domain.  The desktop environment invites experimentation, exploration, and discovery.  These MATLAB tools and capabilities are all rigorously tested and designed to work together.</string>
+            <string>Current drivers for the latest Wacom professional pen displays and pen tablets, as well as Wacom business solutions products.</string>
             <key>SELF_SERVICE_ICON</key>
-            <string>Matlab.png</string>
+            <string>WacomIntuosDriver.png</string>
             <key>POLICY_TRIGGER</key>
-            <string>matlab</string>
+            <string>wacom</string>
             <key>UPDATE_PREDICATE</key>
 			<string>pkg_uploaded == False</string>
 		</dict>
 		<key>MinimumVersion</key>
 		<string>2.3</string>
 		<key>ParentRecipe</key>
-        <string>com.github.mlbz521.pkg.Matlab-ISO</string>
+        <string>com.github.nstrauss.pkg.WacomTablet</string>
         <key>Process</key>
 		<array>
 			<dict>

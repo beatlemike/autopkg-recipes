@@ -3,34 +3,32 @@
 <plist version="1.0">
     <dict>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jamf.Matlab</string>
+        <string>com.github.beatlemike.jamf.Slack</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>MATLAB</string>
-			<key>FILE_SHARE</key>
-			<string>/private/var/tsc/Desktop/OfflineDownloadRepo</string>
+            <string>Slack</string>
             <key>CATEGORY</key>
-            <string>STEM</string>
+            <string>Communication</string>
             <key>POLICY_CATEGORY</key>
-            <string>STEM</string>
+            <string>Communication</string>
 			<key>POLICY_NAME</key>
 			<string>Install - %NAME%</string>
 			<key>POLICY_TEMPLATE</key>
 			<string>JamfPolicyTemplateAllUsers.xml</string>
             <key>SELF_SERVICE_DESCRIPTION</key>
-            <string>The MATLAB platform is optimized for solving engineering and scientific problems.  The matrix-based MATLAB language is the world’s most natural way to express computational mathematics.  Built-in graphics make it easy to visualize and gain insights from data. A vast library of prebuilt toolboxes lets you get started right away with algorithms essential to your domain.  The desktop environment invites experimentation, exploration, and discovery.  These MATLAB tools and capabilities are all rigorously tested and designed to work together.</string>
+            <string>Slack brings team communication and collaboration into one place so you can get more work done, whether you belong to a large enterprise or a small business. Check off your to-do list and move your projects forward by bringing the right people, conversations, tools, and information you need together. Slack is available on any device, so you can find and access your team and your work, whether you’re at your desk or on the go.</string>
             <key>SELF_SERVICE_ICON</key>
-            <string>Matlab.png</string>
+            <string>Slack.png</string>
             <key>POLICY_TRIGGER</key>
-            <string>matlab</string>
+            <string>slack</string>
             <key>UPDATE_PREDICATE</key>
 			<string>pkg_uploaded == False</string>
 		</dict>
 		<key>MinimumVersion</key>
 		<string>2.3</string>
 		<key>ParentRecipe</key>
-        <string>com.github.mlbz521.pkg.Matlab-ISO</string>
+        <string>com.github.killahquam.pkg.slack</string>
         <key>Process</key>
 		<array>
 			<dict>

@@ -1,36 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>Identifier</key>
-        <string>com.github.beatlemike.jamf.Matlab</string>
-        <key>Input</key>
-        <dict>
-            <key>NAME</key>
-            <string>MATLAB</string>
-			<key>FILE_SHARE</key>
-			<string>/private/var/tsc/Desktop/OfflineDownloadRepo</string>
-            <key>CATEGORY</key>
-            <string>STEM</string>
-            <key>POLICY_CATEGORY</key>
-            <string>STEM</string>
+	<dict>
+    	<key>Identifier</key>
+    	<string>com.github.autopkg.beatlemike.jamf.TechSmithSnagit</string>
+    	<key>Input</key>
+    	<dict>
+        	<key>NAME</key>
+        	<string>TechSmith Snagit</string>
+        	<key>CATEGORY</key>
+        	<string>Design</string>
+        	<key>POLICY_CATEGORY</key>
+       	 	<string>Design</string>
 			<key>POLICY_NAME</key>
 			<string>Install - %NAME%</string>
 			<key>POLICY_TEMPLATE</key>
 			<string>JamfPolicyTemplateAllUsers.xml</string>
             <key>SELF_SERVICE_DESCRIPTION</key>
-            <string>The MATLAB platform is optimized for solving engineering and scientific problems.  The matrix-based MATLAB language is the world’s most natural way to express computational mathematics.  Built-in graphics make it easy to visualize and gain insights from data. A vast library of prebuilt toolboxes lets you get started right away with algorithms essential to your domain.  The desktop environment invites experimentation, exploration, and discovery.  These MATLAB tools and capabilities are all rigorously tested and designed to work together.</string>
-            <key>SELF_SERVICE_ICON</key>
-            <string>Matlab.png</string>
-            <key>POLICY_TRIGGER</key>
-            <string>matlab</string>
-            <key>UPDATE_PREDICATE</key>
+        	<string>Snagit combines powerful capture and editing tools with a best-in-class screen recorder.</string>
+        	<key>SELF_SERVICE_ICON</key>
+        	<string>TechSmithSnagit.png</string>
+        	<key>POLICY_TRIGGER</key>
+        	<string>snagit</string>
+        	<key>UPDATE_PREDICATE</key>
 			<string>pkg_uploaded == False</string>
 		</dict>
 		<key>MinimumVersion</key>
 		<string>2.3</string>
 		<key>ParentRecipe</key>
-        <string>com.github.mlbz521.pkg.Matlab-ISO</string>
+    	<string>com.github.autopkg.kernsb.pkg.TechSmithSnagit</string>
         <key>Process</key>
 		<array>
 			<dict>

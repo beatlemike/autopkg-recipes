@@ -3,34 +3,32 @@
 <plist version="1.0">
     <dict>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jamf.Matlab</string>
+        <string>com.github.beatlemike.jamf.MinecraftClassroomMode</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>MATLAB</string>
-			<key>FILE_SHARE</key>
-			<string>/private/var/tsc/Desktop/OfflineDownloadRepo</string>
+            <string>Classroom Mode for Minecraft</string>
             <key>CATEGORY</key>
-            <string>STEM</string>
+            <string>Developer Tools</string>
             <key>POLICY_CATEGORY</key>
-            <string>STEM</string>
+            <string>Developer Tools</string>
 			<key>POLICY_NAME</key>
 			<string>Install - %NAME%</string>
 			<key>POLICY_TEMPLATE</key>
 			<string>JamfPolicyTemplateAllUsers.xml</string>
             <key>SELF_SERVICE_DESCRIPTION</key>
-            <string>The MATLAB platform is optimized for solving engineering and scientific problems.  The matrix-based MATLAB language is the world’s most natural way to express computational mathematics.  Built-in graphics make it easy to visualize and gain insights from data. A vast library of prebuilt toolboxes lets you get started right away with algorithms essential to your domain.  The desktop environment invites experimentation, exploration, and discovery.  These MATLAB tools and capabilities are all rigorously tested and designed to work together.</string>
+            <string>Classroom Mode for Minecraft specifically designed for classroom use. It is being developed by Mojang AB and Microsoft Studios and contains features that make Minecraft easy to use in a classroom setting.</string>
             <key>SELF_SERVICE_ICON</key>
-            <string>Matlab.png</string>
+            <string>MinecraftClassroomMode.png</string>
             <key>POLICY_TRIGGER</key>
-            <string>matlab</string>
+            <string>minecraftclassroommode</string>
             <key>UPDATE_PREDICATE</key>
 			<string>pkg_uploaded == False</string>
 		</dict>
 		<key>MinimumVersion</key>
 		<string>2.3</string>
 		<key>ParentRecipe</key>
-        <string>com.github.mlbz521.pkg.Matlab-ISO</string>
+        <string>com.github.haircut.pkg.MinecraftEdu-ClassroomMode</string>
         <key>Process</key>
 		<array>
 			<dict>
