@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.github.beatlemike.jamf.mmhmmapp</string>
+	<string>com.github.beatlemike.jamf.mmhmmstudio</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>mmhmm</string>
+		<string>mmhmm Studio</string>
             <key>CATEGORY</key>
             <string>Media</string>
             <key>POLICY_CATEGORY</key>
@@ -19,7 +19,7 @@
             <key>SELF_SERVICE_DESCRIPTION</key>
             <string>Present like a pro, or be present when you’re in the audience. With mmhmm, everyone on your team can make meetings better.</string>
             <key>SELF_SERVICE_ICON</key>
-            <string>mmhmm.png</string>
+            <string>mmhmmstudio.png</string>
             <key>POLICY_TRIGGER</key>
             <string>mmhmm</string>
             <key>UPDATE_PREDICATE</key>
@@ -28,7 +28,7 @@
 		<key>MinimumVersion</key>
 		<string>2.3</string>
 		<key>ParentRecipe</key>
-	<string>com.github.beatlemike.pkg.mmhmmapp</string>
+	<string>com.github.beatlemike.pkg.mmhmmstudio</string>
         <key>Process</key>
 		<array>
 			<dict>
