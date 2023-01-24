@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of mmhmm.</string>
+	<string>Downloads the latest version of mmhmm Studio.</string>
 	<key>Identifier</key>
-	<string>com.github.beatlemike.download.mmhmmapp</string>
+	<string>com.github.beatlemike.download.mmhmmstudio</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>mmhmm</string>
+		<string>mmhmm Studio</string>
 		<key>SPARKLE_FEED_URL</key>
         <string>https://updates.mmhmm.app/failsafe</string>
 	</dict>
