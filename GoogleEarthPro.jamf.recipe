@@ -30,7 +30,7 @@
         <key>MinimumVersion</key>
         <string>2.3</string>
         <key>ParentRecipe</key>
-        <string>com.github.nstrauss.download.GoogleEarthPro</string>
+        <string>com.github.nstrauss.pkg.GoogleEarthPro</string>
         <key>Process</key>
 		<array>
 			<dict>
