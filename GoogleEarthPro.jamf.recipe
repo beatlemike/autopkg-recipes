@@ -10,24 +10,26 @@
             <string>Google Earth Pro</string>
             <key>CATEGORY</key>
             <string>Google</string>
+            <key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+            <string>true</string>
             <key>POLICY_CATEGORY</key>
             <string>Google</string>
-			<key>POLICY_NAME</key>
-			<string>Install - %NAME%</string>
-			<key>POLICY_TEMPLATE</key>
-			<string>JamfPolicyTemplateAllUsers.xml</string>
+            <key>POLICY_NAME</key>
+            <string>Install - %NAME%</string>
+            <key>POLICY_TEMPLATE</key>
+            <string>JamfPolicyTemplateAllUsers.xml</string>
             <key>SELF_SERVICE_DESCRIPTION</key>
             <string>Google Earth Pro on desktop is for users with advanced feature needs. Import and export GIS data, and go back in time with historical imagery.</string>
             <key>SELF_SERVICE_ICON</key>
             <string>GoogleEarthPro.png</string>
             <key>POLICY_TRIGGER</key>
             <string>googleearth</string>
-			<key>UPDATE_PREDICATE</key>
-			<string>pkg_uploaded == False</string>
-		</dict>
-		<key>MinimumVersion</key>
-		<string>2.3</string>
-		<key>ParentRecipe</key>
+            <key>UPDATE_PREDICATE</key>
+            <string>pkg_uploaded == False</string>
+        </dict>
+        <key>MinimumVersion</key>
+        <string>2.3</string>
+        <key>ParentRecipe</key>
         <string>com.github.autopkg.nmcspadden-recipes.pkg.google-earth-pro</string>
         <key>Process</key>
 		<array>
