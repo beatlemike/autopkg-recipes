@@ -19,7 +19,7 @@
             <key>SELF_SERVICE_DESCRIPTION</key>
             <string>Establish incoming and outgoing remote desktop and computer-to-computer connections for real-time support or access to files, networks and programs. Collaborate online, participate in meetings, chat with other people or groups, and make video calls in one click. After downloading and installing this software, you'll have your first session up and running within seconds.</string>
             <key>SELF_SERVICE_ICON</key>
-            <string>TeamViewer.png</string>
+            <string>TeamViewer15.png</string>
             <key>POLICY_TRIGGER</key>
             <string>teamviewer</string>
             <key>UPDATE_PREDICATE</key>
