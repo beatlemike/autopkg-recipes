@@ -19,7 +19,7 @@
             <key>SELF_SERVICE_DESCRIPTION</key>
         	<string>PowerShell is a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework.</string>
             <key>SELF_SERVICE_ICON</key>
-            <string>PowerShell.png</string>            
+            <string>MicrosoftPowerShell.png</string>            
             <key>POLICY_TRIGGER</key>
             <string>powershell</string>
             <key>UPDATE_PREDICATE</key>
