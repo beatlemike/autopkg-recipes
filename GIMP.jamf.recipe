@@ -2,32 +2,34 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 	<dict>
-		<key>Identifier</key>
-		<string>com.github.beatlemike.jamf.gimp</string>
+            <key>Identifier</key>
+            <string>com.github.beatlemike.jamf.gimp</string>
     	<key>Input</key>
     	<dict>
-        	<key>NAME</key>
-        	<string>GIMP</string>
-        	<key>CATEGORY</key>
-        	<string>Design</string>
-        	<key>POLICY_CATEGORY</key>
-        	<string>Design</string>
-			<key>POLICY_NAME</key>
-			<string>Install - %NAME%</string>
-			<key>POLICY_TEMPLATE</key>
-			<string>JamfPolicyTemplateAllUsers.xml</string>
+            <key>NAME</key>
+            <string>GIMP</string>	
+            <key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+            <string>true</string>
+            <key>CATEGORY</key>
+            <string>Design</string>
+            <key>POLICY_CATEGORY</key>
+            <string>Design</string>
+            <key>POLICY_NAME</key>
+            <string>Install - %NAME%</string>
+            <key>POLICY_TEMPLATE</key>
+            <string>JamfPolicyTemplateAllUsers.xml</string>
             <key>SELF_SERVICE_DESCRIPTION</key>
             <string>Whether you are a graphic designer, photographer, illustrator, or scientist, GIMP provides you with sophisticated tools to get your job done. You can further enhance your productivity with GIMP thanks to many customization options and 3rd party plugins.</string>
-        	<key>SELF_SERVICE_ICON</key>
-        	<string>GIMP.png</string>
-        	<key>POLICY_TRIGGER</key>
-        	<string>gimp</string>
-			<key>UPDATE_PREDICATE</key>
-			<string>pkg_uploaded == False</string>
-		</dict>
-		<key>MinimumVersion</key>
-		<string>2.3</string>
-		<key>ParentRecipe</key>
+            <key>SELF_SERVICE_ICON</key>
+            <string>GIMP.png</string>
+            <key>POLICY_TRIGGER</key>
+            <string>gimp</string>
+            <key>UPDATE_PREDICATE</key>
+            <string>pkg_uploaded == False</string>
+    	</dict>
+    	<key>MinimumVersion</key>
+    	<string>2.3</string>
+    	<key>ParentRecipe</key>
         <string>com.github.hansen-m.pkg.gimp</string>
         <key>Process</key>
 		<array>
