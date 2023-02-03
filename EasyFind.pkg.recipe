@@ -14,7 +14,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.beatlemike.download.EasyFind</string>
+	<string>com.github.jleggat.EasyFind.download</string>
 	<key>Process</key>
 	<array>
 		<dict>
