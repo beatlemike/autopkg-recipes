@@ -12,10 +12,10 @@
             <string>Browsers</string>
             <key>POLICY_CATEGORY</key>
             <string>Browsers</string>
-			<key>POLICY_NAME</key>
-			<string>Install - %NAME%</string>
-			<key>POLICY_TEMPLATE</key>
-			<string>JamfPolicyTemplateAllUsers.xml</string>
+            <key>POLICY_NAME</key>
+            <string>Install - %NAME%</string>
+            <key>POLICY_TEMPLATE</key>
+            <string>JamfPolicyTemplateAllUsers.xml</string>
             <key>SELF_SERVICE_DESCRIPTION</key>
             <string>Opera is a fast and secure browser. Developed in Europe, used by millions around the world. Now with a built-in ad blocker and free VPN.</string>
             <key>SELF_SERVICE_ICON</key>
@@ -23,11 +23,13 @@
             <key>POLICY_TRIGGER</key>
             <string>opera</string>
             <key>UPDATE_PREDICATE</key>
-			<string>pkg_uploaded == False</string>
-		</dict>
-		<key>MinimumVersion</key>
-		<string>2.3</string>
-		<key>ParentRecipe</key>
+            <string>pkg_uploaded == False</string>	
+            <key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+            <string>true</string>
+        </dict>
+        <key>MinimumVersion</key>
+        <string>2.3</string>
+        <key>ParentRecipe</key>
         <string>com.github.amsysuk-recipes.pkg.opera</string>
         <key>Process</key>
 		<array>
