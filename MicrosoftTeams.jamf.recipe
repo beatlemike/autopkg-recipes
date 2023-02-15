@@ -8,14 +8,16 @@
         <dict>
             <key>NAME</key>
             <string>Microsoft Teams</string>
+            <key>VERSIONTYPE</key>
+            <string>CFBundleGetInfoString</string>
             <key>CATEGORY</key>
             <string>Microsoft</string>
             <key>POLICY_CATEGORY</key>
             <string>Microsoft</string>
-			<key>POLICY_NAME</key>
-			<string>Install - %NAME%</string>
-			<key>POLICY_TEMPLATE</key>
-			<string>JamfPolicyTemplateAllUsers.xml</string>
+            <key>POLICY_NAME</key>
+            <string>Install - %NAME%</string>
+            <key>POLICY_TEMPLATE</key>
+            <string>JamfPolicyTemplateAllUsers.xml</string>
             <key>SELF_SERVICE_DESCRIPTION</key>
             <string>Microsoft Teams is your hub for teamwork in Office 365. All your team conversations, files, meetings, and apps live together in a single shared workspace.</string>
             <key>SELF_SERVICE_ICON</key>
@@ -23,11 +25,11 @@
             <key>POLICY_TRIGGER</key>
             <string>msteams</string>
             <key>UPDATE_PREDICATE</key>
-			<string>pkg_uploaded == False</string>
-		</dict>
-		<key>MinimumVersion</key>
-		<string>2.3</string>
-		<key>ParentRecipe</key>
+            <string>pkg_uploaded == False</string>
+        </dict>
+        <key>MinimumVersion</key>
+        <string>2.3</string>
+        <key>ParentRecipe</key>
         <string>com.github.rtrouton.pkg.microsoftteams</string>
         <key>Process</key>
 		<array>
