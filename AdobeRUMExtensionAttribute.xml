@@ -1,0 +1,27 @@
+<computer_extension_attribute>
+    <name>%PROD_NAME%</name>
+    <description>Returns the installed version of %PROD_NAME%</description>
+    <data_type>string</data_type>
+    <input_type>
+        <type>script</type>
+        <platform>Mac</platform>
+        <script>
+#!/bin/bash
+
+if [ -f /usr/local/bin/RemoteUpdateManager  ]; then
+    chmod +x /usr/local/bin/RemoteUpdateManager
+    S_VERSION=$(/usr/local/bin/RemoteUpdateManager -h | grep BuildVersion | cut -d ':' -f2 | cut -d ' ' -f2 2>/dev/null )
+    ExtensionVersion="${S_VERSION}"
+elif [ -a /usr/sbin/RemoteUpdateManager ]; then
+    S_VERSION="Pre 2015.5 Release"
+    ExtensionVersion="${S_VERSION}"
+else
+    ExtensionVersion="Not installed"
+fi
+
+echo "&lt;result&gt;$ExtensionVersion&lt;/result&gt;"
+		</script>
+    </input_type>
+    <inventory_display>Extension Attributes</inventory_display>
+    <recon_display>Extension Attributes</recon_display>
+</computer_extension_attribute>

@@ -12,19 +12,23 @@
             <string>Adobe Remote Update Manager</string>
             <key>CATEGORY</key>
             <string>Adobe</string>
+            <key>DESCRIPTION</key>
+            <string>Downloads the latest version of Adobe's RemoteUpdateManager.</string>
             <key>POLICY_CATEGORY</key>
             <string>Additional Installs</string>
             <key>POLICY_TRIGGER</key>
             <string>rum</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+            <key>GROUP_TEMPLATE</key>
+            <string>%RECIPE_DIR%/AdobeRUMSmartGroupTemplate.xml</string>
+            <key>EXTENSION_ATTRIBUTE_TEMPLATE</key>
+		    <string>%RECIPE_DIR%/AdobeRUMExtensionAttribute.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/AdobeRUM.png</string>
-            <key>DESCRIPTION</key>
-            <string>Downloads the latest version of Adobe's RemoteUpdateManager.</string>
         </dict>
         <key>MinimumVersion</key>
-        <string>0.4.0</string>
+        <string>1.0.0</string>
         <key>ParentRecipe</key>
         <string>com.github.beatlemike.pkg.AdobeRUM</string>
         <key>Process</key>
@@ -46,6 +50,24 @@
                     <string>%ICON%</string>
                     <key>self_service_description</key>
                     <string>%DESCRIPTION%</string>
+                    <key>extension_attributes</key>
+				    <array>
+					    <dict>
+						    <key>ext_attribute_path</key>
+						    <string>%EXTENSION_ATTRIBUTE_TEMPLATE%</string>
+					    </dict>
+				    </array>
+				    <key>groups</key>
+				    <array>
+					    <dict>
+						    <key>name</key>
+						    <string>%GROUP_NAME%</string>
+						    <key>smart</key>
+						    <true/>
+						    <key>template_path</key>
+						    <string>%GROUP_TEMPLATE%</string>
+					    </dict>
+				    </array>
                 </dict>
                 <key>Processor</key>
                 <string>JSSImporter</string>
