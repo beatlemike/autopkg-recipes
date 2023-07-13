@@ -12,7 +12,7 @@
         <string>Audacity</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.beatlemike.download.Audacity</string>
+    <string>com.github.dataJAR-recipes.download.Audacity</string>
     <key>MinimumVersion</key>
     <string>1.0</string>
     <key>Process</key>
