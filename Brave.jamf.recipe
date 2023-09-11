@@ -28,7 +28,7 @@
 		<key>MinimumVersion</key>
 		<string>2.3</string>
 		<key>ParentRecipe</key>
-        <string>com.github.fishd72.pkg.brave</string>
+        <string>com.github.beatlemike.pkg.Brave</string>
         <key>Process</key>
 		<array>
 			<dict>
