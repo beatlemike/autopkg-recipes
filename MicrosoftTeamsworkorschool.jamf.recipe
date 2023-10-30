@@ -3,11 +3,11 @@
 <plist version="1.0">
     <dict>
         <key>Identifier</key>
-        <string>com.github.beatlemike.jamf.MicrosoftTeamsclassic</string>
+        <string>com.github.beatlemike.jamf.MicrosoftTeamsworkorschool</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Microsoft Teams classic</string>
+            <string>Microsoft Teams (work or school)</string>
             <key>VERSIONTYPE</key>
             <string>CFBundleGetInfoString</string>
             <key>CATEGORY</key>
@@ -23,14 +23,14 @@
             <key>SELF_SERVICE_ICON</key>
             <string>MicrosoftTeams.png</string>
             <key>POLICY_TRIGGER</key>
-            <string>msteamsclassic</string>
+            <string>msteams</string>
             <key>UPDATE_PREDICATE</key>
             <string>pkg_uploaded == False</string>
         </dict>
         <key>MinimumVersion</key>
         <string>2.3</string>
         <key>ParentRecipe</key>
-        <string>com.github.rtrouton.pkg.microsoftteamsclassic</string>
+        <string>com.github.rtrouton.pkg.microsoftteamsforworkorschool</string>
         <key>Process</key>
 		<array>
 			<dict>
