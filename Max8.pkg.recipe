@@ -3,36 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of pspp and creates a package.</string>
+	<string>Packages the latest version of Max 8</string>
 	<key>Identifier</key>
-	<string>com.github.beatlemike.pkg.pspp</string>
+	<string>com.github.beatlemike.pkg.Max8</string>
 	<key>Input</key>
 	<dict>
-	<key>NAME</key>
-	<string>pspp</string>
+		<key>NAME</key>
+		<string>Max 8</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>1.0.0</string>
+	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.beatlemike.download.pspp</string>
+	<string>com.github.dataJAR-recipes.download.Max 8</string>
 	<key>Process</key>
 	<array>
-		<dict>
-			<key>Processor</key>
-			<string>AppDmgVersioner</string>
-			<key>Arguments</key>
-			<dict>
-				<key>dmg_path</key>
-				<string>%pathname%</string>
-			</dict>
-		</dict>
 		<dict>
 			<key>Processor</key>
 			<string>PkgRootCreator</string>
 			<key>Arguments</key>
 			<dict>
 				<key>pkgroot</key>
-				<string>%RECIPE_CACHE_DIR%/payload</string>
+				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
 				<key>pkgdirs</key>
 				<dict>
 					<key>Applications</key>
@@ -45,10 +36,26 @@
 			<string>Copier</string>
 			<key>Arguments</key>
 			<dict>
-				<key>source_path</key>
-				<string>%pathname%/pspp.app</string>
 				<key>destination_path</key>
-				<string>%pkgroot%/Applications/pspp.app</string>
+				<string>%pkgroot%/Applications/%NAME%.app</string>
+				<key>source_path</key>
+				<string>%pathname%/%NAME%.app</string>
+			</dict>
+		</dict>
+		<dict>
+		<key>Processor</key>
+		<string>PlistReader</string>
+		<key>Arguments</key>
+			<dict>
+				<key>info_path</key>
+				<string>%pkgroot%/Applications/%NAME%.app/Contents/Info.plist</string>
+				<key>plist_keys</key>
+				<dict>
+					<key>CFBundleVersion</key>
+					<string>version</string>
+					<key>CFBundleIdentifier</key>
+					<string>identifier</string>
+				</dict>
 			</dict>
 		</dict>
 		<dict>
@@ -58,14 +65,14 @@
 			<dict>
 				<key>pkg_request</key>
 				<dict>
+					<key>pkgroot</key>
+					<string>%pkgroot%</string>
 					<key>pkgname</key>
 					<string>%NAME%-%version%</string>
-					<key>pkgdir</key>
-					<string>%RECIPE_CACHE_DIR%</string>
 					<key>id</key>
-					<string>edu.csusb.pspp</string>
-					<key>options</key>
-					<string>purge_ds_store</string>
+					<string>%identifier%</string>
+					<key>version</key>
+					<string>%version%</string>
 					<key>chown</key>
 					<array>
 						<dict>
