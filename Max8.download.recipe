@@ -2,26 +2,26 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Comment</key>
+	<string>Created with Recipe Robot v2.3.1 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Max 8.</string>
+	<string>Downloads the latest version of Max.</string>
 	<key>Identifier</key>
-	<string>com.github.beatlemike.download.Max8</string>
+	<string>com.github.beatlemike.download.Max</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Max 8</string>
+		<string>Max</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>Process</key>
 	<array>
 		<dict>
-			<key>Processor</key>
+            <key>Processor</key>
             <string>URLTextSearcher</string>
             <key>Arguments</key>
             <dict>
-				<key>filename</key>
-				<string>%NAME%.dmg</string>
                 <key>url</key>
                 <string>https://cycling74.com/downloads</string>
                 <key>re_pattern</key>
@@ -29,22 +29,33 @@
                 <key>result_output_var_name</key>
                 <string>DOWNLOAD_URL</string>
             </dict>
-		</dict>
-		<dict>
-			<key>Processor</key>
-			<string>EndOfCheckPhase</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>input_path</key>
-				<string>%pathname%/Max.app</string>
-				<key>requirement</key>
-				<string>identifier "com.cycling74.Max" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GBXXCFCVW5</string>
-			</dict>
-			<key>Processor</key>
-			<string>CodeSignatureVerifier</string>
-		</dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>URLDownloader</string>
+            <key>Arguments</key>
+            <dict>
+                <key>url</key>
+                <string>%DOWNLOAD_URL%</string>
+                <key>filename</key>
+                <string>%NAME%.dmg</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>EndOfCheckPhase</string>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>CodeSignatureVerifier</string>
+            <key>Arguments</key>
+            <dict>
+                <key>input_path</key>
+                <string>%pathname%/Max.app</string>
+                <key>requirement</key>
+                <string>identifier "com.cycling74.Max" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GBXXCFCVW5</string>
+            </dict>
+        </dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
